@@ -1,6 +1,16 @@
 # Release notes
 
-<table data-full-width="true"><thead><tr><th>Release Version</th><th>Date</th></tr></thead><tbody><tr><td>6.0.0</td><td>28-Sep-2023</td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th>Release Version</th><th>Date</th></tr></thead><tbody><tr><td>6.0.0</td><td>28-Sep-2023</td></tr><tr><td>6.0.1 (hotfix)</td><td>TBD</td></tr></tbody></table>
+
+### Hotfix 6.0.1
+
+#### Platform Compatibility Update: Cloud agnostic feature (tested on OCI) ([ED-2631](https://project-sunbird.atlassian.net/browse/ED-2631))
+
+In the release version 6.0.0, Sunbird ED underwent extensive testing on the Microsoft Azure platform. We are pleased to announce that, in addition to Azure, Sunbird ED has now been rigorously tested on Oracle Cloud Infrastructure (OCI), ensuring broader compatibility and reliability across multiple cloud services.
+
+{% hint style="info" %}
+Note: Please refer to the latest installation documents to include the latest updates
+{% endhint %}
 
 ### Overview
 

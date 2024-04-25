@@ -1,5 +1,11 @@
 # Update Ansible Variables
 
+{% hint style="info" %}
+Note: This document has been revised to incorporate updates for version 6.0.1, including testing of the cloud-agnostic feature on Oracle Cloud Infrastructure (OCI).
+
+(updated on TBD)&#x20;
+{% endhint %}
+
 Ansible is the configuration management system used in Sunbird. Provisioning, deployment of services and other configurations are handled primarily through ansible.&#x20;
 
 **Updating the Private Repository with Hosts and Variables**
