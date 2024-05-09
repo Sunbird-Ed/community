@@ -12,8 +12,12 @@ Creators have the flexibility to define particular domains, criteria, and scores
 
 ### Observation without rubrics
 
-&#x20;The questionnaire is straightforward and does not include any domains.
+The questionnaire is straightforward and does not include any domains.
 
 ### Observation led Improvement project <a href="#observation-let-imporvment" id="observation-let-imporvment"></a>
 
 These are Observations with rubrics with Improvement Projects mapped to each level. Users get suggestions for starting an Improvement Project based on the level they are at after completing the Observation.
+
+
+
+{% embed url="https://youtu.be/Itooozolui0?list=PLUrm4D0K_7nxlaZZYirokpx5Mo-jMd64M&t=1511" %}

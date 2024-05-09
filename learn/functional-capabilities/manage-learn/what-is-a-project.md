@@ -7,3 +7,7 @@ The improvement project empowers leaders to outline and monitor a series of task
 {% embed url="https://docs.google.com/presentation/d/1DR0qlzKYcs8avhWBaa99LD1W-xMnARw06m8YceufomQ/edit#slide=id.g137c5b9b04b_0_191" %}
 Project
 {% endembed %}
+
+
+
+{% embed url="https://youtu.be/Itooozolui0?list=PLUrm4D0K_7nxlaZZYirokpx5Mo-jMd64M&t=4380" %}

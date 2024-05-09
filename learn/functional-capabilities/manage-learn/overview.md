@@ -1,8 +1,6 @@
 # Overview
 
-Manage Learn is a vertical within the Sunbird project that focuses on implementing project, observation, and survey capabilities. This capability currently is enabled using multiple building blocks such as Sunbird Obsrv, Sunbird RC, Sunbird Lern, Sunbird Ed, and Sunbird Knowlg.  Below are the solutions offered through Manage Learn vertical.
-
-
+Manage Learn is a vertical within the Sunbird project that focuses on implementing project, observation, and survey capabilities. This capability currently is enabled using multiple building blocks such as Sunbird Obsrv, Sunbird RC, Sunbird Lern, Sunbird Ed, and Sunbird Knowlg. Below are the solutions offered through Manage Learn vertical.
 
 * [Programs](what-is-a-program.md)
 * [Project](what-is-a-project.md)
@@ -15,3 +13,5 @@ Manage Learn is a vertical within the Sunbird project that focuses on implementi
 * [Observation led Improvement project](what-is-observation.md)
 
 {% embed url="https://drive.google.com/file/d/1MXPefXTzkZ40BZnBIqmbE4uSDx0DbojD/view?ts=64dc66db" %}
+
+{% embed url="https://youtu.be/Itooozolui0?si=01Rdh4DSKb3rhBLQ" %}
