@@ -20,13 +20,17 @@ For the code example mentioned above, we incorporated a custom class and associa
 .button-rounded {
   &.mat-raised-button {
     border-radius: 2rem;
+    background-color: red;
+    font-size:16px;
+    height:48px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   }
 }
 ```
 
-The CSS code provided is used to override the default styles of the `mat-raised-button` component, resulting in the following visual output:
+We have applied custom styles to a basic mat button by adding the class name "**button-rounded**" in the HTML code above. The CSS code provided serves to modify the default styles of the mat-raised-button component, leading to the visual output depicted below.
 
-<figure><img src="../../../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
 
 3. **Button Theming**: Customize button theming by adjusting primary, accent, and warn colors within your custom theme. These colors impact button backgrounds, text, and other visual elements.&#x20;
 

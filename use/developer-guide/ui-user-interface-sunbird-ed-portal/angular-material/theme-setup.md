@@ -234,11 +234,69 @@ export class AppComponent {
 ```
 {% endcode %}
 
+Once we've established a mixin named "**app-component-theme**" within "**app.component.scss**," we've allocated background and foreground colors from the palette as demonstrated below:
+
+```scss
+@mixin app-component-theme($theme) {
+  // Get the color config from the theme.
+  $color-config: mat.get-color-config($theme);
+  // Get the primary color palette from the color-config.
+  $background: map.get($color-config, 'background');
+  $foreground: map.get($color-config, 'foreground');
+}
+```
+
+We should include the previously created mixin in "**themes.scss**" which is located inside "**app-themes**".
+
+```scss
+  @mixin app-themes($theme) {
+    /* all */
+    @include app-component-theme($theme);
+  }
+```
+
+After crafting themes for both light and dark modes and incorporating the "**app-theme**s" section within each of them.
+
+```scss
+.#{$css-class} {
+    // light theme
+    // $app-themes: mat.define-light-theme($primary, $accent, $warn);
+    @include app-themes($app-themes-light);
+    @include mat.all-component-typographies($typography);
+    /* custom typography rem */
+    $primary50: mat.get-color-from-palette($primary, 50);
+    $primary100: mat.get-color-from-palette($primary, 100);
+    $primary200: mat.get-color-from-palette($primary, 200);
+    
+    .mat-app-background {
+      background: mat.get-color-from-palette($primary, 50);
+    }
+
+    // dark theme
+    
+    @if $css-class=="purple-green" or $css-class=="pink-bluegrey" {
+      // $app-themes: mat.define-dark-theme($primary, $accent, $warn);
+      @include app-themes($app-themes-dark);
+      $primary100: map-get($background,
+          background); // mat.get-color-from-palette($accent, 900);
+      $primary200: #232323;
+    }
+  }
+```
+
 We added the code for the theme selector button in the "**themes.scss**" file, as follows:
 
 ```scss
-.themeMenuDropdown .#{$css-class} use.docs-theme-icon-background {
+ .themeMenuDropdown .#{$css-class} use.docs-theme-icon-background {
     fill: map-get($background, background);
+  }
+
+  .themeMenuDropdown .#{$css-class} use.docs-theme-icon-button {
+    fill: mat.get-color-from-palette($accent, 500);
+  }
+
+  .themeMenuDropdown .#{$css-class} use.docs-theme-icon-toolbar {
+    fill: mat.get-color-from-palette($primary, 500);
   }
 ```
 

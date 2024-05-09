@@ -16,7 +16,6 @@ Here's what Angular Material solves for:
 
 ## **What does Angular Material provide?**
 
-\
 Angular Material provides a comprehensive set of UI components, tools, and styles that are designed to enhance the development of Angular applications. These resources help developers create modern and visually appealing user interfaces in a consistent and efficient manner. Here's an overview of what Angular Material provides:
 
 1. **UI Components**: Angular Material Components are built following the Material Design guidelines and are designed to be visually appealing and consistent across different devices and screen sizes. Angular Material offers a wide range of UI components, including but not limited to:&#x20;

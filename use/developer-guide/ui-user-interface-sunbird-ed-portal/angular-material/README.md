@@ -26,18 +26,32 @@ Angular Material provides four pre-built themes, each showcasing unique color pa
 
 <figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FAEDw4QSTF4bOoUHIOEnN%2Fuploads%2FEb4N9j9NeXDFnvqlXD3d%2Ftheme-switch.webp?alt=media&#x26;token=c848a239-3f1c-44bd-84ab-a140d67c91c9" alt=""><figcaption></figcaption></figure>
 
-#### 1. Deep Purple & Amber <a href="#1.-deep-purple-and-amber" id="1.-deep-purple-and-amber"></a>
+#### 1. Deep Purple & Amber <a href="#id-1.-deep-purple-and-amber" id="id-1.-deep-purple-and-amber"></a>
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FAEDw4QSTF4bOoUHIOEnN%2Fuploads%2FkWzJvfUGBbtxUqBWlR7E%2FDeep%20Purple%20%26%20Amber.webp?alt=media&#x26;token=7d6a75f5-4182-4934-b370-bc88a34410d1" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
 
-#### 2. Indigo & Pink <a href="#2.-indigo-and-pink" id="2.-indigo-and-pink"></a>
+#### 2. Indigo & Pink <a href="#id-2.-indigo-and-pink" id="id-2.-indigo-and-pink"></a>
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FAEDw4QSTF4bOoUHIOEnN%2Fuploads%2FmEjGOk5z6mIRoGGhYUAO%2FIndigo%20%26%20Pink.webp?alt=media&#x26;token=30f41fda-af63-43be-b19c-c1826e8ec9ac" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
 
-#### 3. Pink & Blue-grey <a href="#3.-pink-and-blue-grey" id="3.-pink-and-blue-grey"></a>
+#### 3. Pink & Blue-grey <a href="#id-3.-pink-and-blue-grey" id="id-3.-pink-and-blue-grey"></a>
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FAEDw4QSTF4bOoUHIOEnN%2Fuploads%2Fa8YecrT3G1Qi2CghD3xF%2FPink%20%26%20Blue-grey.webp?alt=media&#x26;token=e28af712-d0c3-4075-a4bd-9d4b4fa682e6" alt=""><figcaption></figcaption></figure>
 
-#### 4. Purple & Green <a href="#4.-purple-and-green" id="4.-purple-and-green"></a>
 
-<figure><img src="../../../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure>
+
+#### 4. Purple & Green <a href="#id-4.-purple-and-green" id="id-4.-purple-and-green"></a>
+
+<figure><img src="../../../../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
+
+### Custom Themes
+
+You can tailor the theme of your Angular application using Angular Material by utilizing Angular's theming and styling capabilities in combination with CSS.
+
+1. **Joy Theme**
+
+<figure><img src="../../../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+To gain further insights into crafting and implementing custom themes, please follow these steps to explore details on creating and applying colors during the [**customization**](customazion/) process.
+{% endhint %}

@@ -10,20 +10,22 @@ The Form Configurations are a set of predefined forms that enable users to easil
 
 In this guide, we will explore the various features and functionalities of Form Configurations and provide instructions on how to use them effectively.
 
-{% swagger method="post" path="" baseUrl="User type config" summary="This Form is used for giving labels and images for the user type selection on the onboarding of users." %}
-{% swagger-description %}
+## This Form is used for giving labels and images for the user type selection on the onboarding of users.
+
+<mark style="color:green;">`POST`</mark> `User type config`
+
 **Form Create API:**
 
-"request": { "type": "config",&#x20;
+"request": { "type": "config",
 
-"subType": "userType\_v2",&#x20;
+"subType": "userType\_v2",
 
-"action": "get",&#x20;
+"action": "get",
 
 "component": "app" }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 {
   "code": "teacher",
@@ -65,26 +67,28 @@ The user can use the "ambiguousFilters" and "searchFilter" fields to specify the
 
 Overall, the form config response provides a lot of flexibility and customization options for users to tailor the form to their specific needs and preferences.
 
-![](../../.gitbook/assets/ksnip\_20230504-143920.png)
+<img src="../../.gitbook/assets/ksnip_20230504-143920.png" alt="" data-size="original">
 
 The user can customize the image and labels that is displayed for the form by modifying the fields. In this example, the "ic\_teacher.svg" image is used for the "Teacher" profile.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="Framework config" summary="This Form is used for getting various framework category details." %}
-{% swagger-description %}
+## This Form is used for getting various framework category details.
+
+<mark style="color:green;">`POST`</mark> `Framework config`
+
 **Form Create API:**
 
-"request": { "type": "config",&#x20;
+"request": { "type": "config",
 
-"subType": "frameworkCategory",&#x20;
+"subType": "frameworkCategory",
 
-"action": "get",&#x20;
+"action": "get",
 
 "component": "app" }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 {
   "id": "api.form.read",
@@ -166,26 +170,28 @@ The user can customize the image and labels that is displayed for the form by mo
 }
 ```
 
-This form is designed to provide a framework for selecting educational categories such as board, medium, class, and subject. Each category has a code, label, placeholder, frameworkCode, and supportedUserTypes.&#x20;
+This form is designed to provide a framework for selecting educational categories such as board, medium, class, and subject. Each category has a code, label, placeholder, frameworkCode, and supportedUserTypes.
 
-![](<../../.gitbook/assets/processed-3013f805-7c53-4bfb-b528-08c840595bda\_pT6PG12j (2).jpeg>)![](../../.gitbook/assets/processed-6e1f0eec-8831-4aa4-9977-ef191fcafbde\_T23xUMH6.jpeg)
+<img src="../../.gitbook/assets/processed-3013f805-7c53-4bfb-b528-08c840595bda_pT6PG12j (2).jpeg" alt="" data-size="original"><img src="../../.gitbook/assets/processed-6e1f0eec-8831-4aa4-9977-ef191fcafbde_T23xUMH6.jpeg" alt="" data-size="original">
 
 The supportedUserTypes specify which types of users can access the form, including teachers, students, parents, and others. This form is dynamic and can be customized to accommodate different categories or additional user types.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="Web view version config" summary="This form is used to get the web view version of the mobile application when it is opened." %}
-{% swagger-description %}
+## This form is used to get the web view version of the mobile application when it is opened.
+
+<mark style="color:green;">`POST`</mark> `Web view version config`
+
 **Form Create API:**
 
-"request": { "type": "config",&#x20;
+"request": { "type": "config",
 
-"subType": "webview\_version",&#x20;
+"subType": "webview\_version",
 
 "action": "get" }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 "type": "config",
          "subtype": "webview_version",
@@ -203,23 +209,25 @@ The supportedUserTypes specify which types of users can access the form, includi
          }
 
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="Admin user home page labels config" summary="This form is used to give labels on the Learn, Manage, and Act section on the admin user home page" %}
-{% swagger-description %}
+## This form is used to give labels on the Learn, Manage, and Act section on the admin user home page
+
+<mark style="color:green;">`POST`</mark> `Admin user home page labels config`
+
 **Form Create API:**
 
-"request": { "type": "config",&#x20;
+"request": { "type": "config",
 
-"subType": "adminHome",&#x20;
+"subType": "adminHome",
 
-"action": "get",&#x20;
+"action": "get",
 
 "component": "app" }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 {
        "code": "program",
@@ -243,21 +251,23 @@ The form configuration includes three codes: "program," "project," and "observat
 
 These labels are useful for categorizing and organizing data, making it easier to locate and manage specific types of information.
 
-![](../../.gitbook/assets/ksnip\_20230505-171523.png)
+<img src="../../.gitbook/assets/ksnip_20230505-171523.png" alt="" data-size="original">
 
 If needed, additional labels can be added to the configuration to further categorize data. The search key is currently left blank, indicating that no search functionality is currently implemented for this form. However, it could be added in the future to allow users to search for specific codes or titles.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="Login. config" summary="This form is used for login purpose." %}
-{% swagger-description %}
+## This form is used for login purpose.
+
+<mark style="color:green;">`POST`</mark> `Login. config`
+
 **Form Create API:**
 
 "request": { "type": "config",\
 "subType": "login\_v2", "action": "get" }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 "context": "login",
 "target": {
@@ -292,20 +302,22 @@ The above form configuration code provides the necessary information for a login
 
 The "host" field specifies the domain name of the login page, while the "path" field provides the URL path for the authentication endpoint. The "params" section provides additional parameters needed for authentication, including the redirect URL, response type, scope, client ID, and version.
 
-![](../../.gitbook/assets/ksnip\_20230505-171838.png)
+<img src="../../.gitbook/assets/ksnip_20230505-171838.png" alt="" data-size="original">
 
 Users can modify this form configuration to customize the login page's appearance and behavior according to their preferences. They can also adjust the parameters in the "params" section to include or exclude specific authentication requirements. Overall, this form configuration provides a straightforward and easy-to-use method for users to log in to a website or application.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="App upgrade" summary="This form will show the reminder to upgrade the application to its latest version." %}
-{% swagger-description %}
+## This form will show the reminder to upgrade the application to its latest version.
+
+<mark style="color:green;">`POST`</mark> `App upgrade`
+
 **Form Create API:**
 
 "request": { "type": "app", "subType": "install", "action": "upgrade" }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 {
   "type": "force",
@@ -323,20 +335,22 @@ Users can modify this form configuration to customize the login page's appearanc
 
 When application needs updation, this form provides the link to update to its latest version.
 
-![](../../.gitbook/assets/ksnip\_20230505-190209.png)
+<img src="../../.gitbook/assets/ksnip_20230505-190209.png" alt="" data-size="original">
 
 This link can be replaced as per user’s convenience.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="Search filter " summary="In the search filter page, this form wll give nine types of filters. Users can change the filters and number of filters, by using this form." %}
-{% swagger-description %}
+## In the search filter page, this form wll give nine types of filters. Users can change the filters and number of filters, by using this form.
+
+<mark style="color:green;">`POST`</mark> `Search filter`&#x20;
+
 **Form Create API:**
 
 "request": { "type": "config", "subType": "search", "action": "filter\_v3", "component": "app" }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 {
   "code": "se_boards",
@@ -364,22 +378,24 @@ The "se\_boards" code corresponds to a label called "Board/Syllabus," which can 
 
 The "se\_gradeLevels" code corresponds to a label called "Class," which can be used to categorize information based on the specific grade or class level it pertains to. The translations for this label are also available in multiple languages including English, Assamese, Bengali, Gujarati, Hindi, Kannada, Marathi, Odia, Punjabi, Tamil, Telugu, and Urdu.
 
-![](../../.gitbook/assets/ksnip\_20230505-190525.png)
+<img src="../../.gitbook/assets/ksnip_20230505-190525.png" alt="" data-size="original">
 
 The "values" key is currently empty, indicating that no specific values have been assigned to these labels. However, values can be added to these labels in the future to help further categorize and organize information based on the specific board/syllabus and class levels.
 
 The "index" key indicates the position of the label in a list or dropdown menu, which can be useful for ordering the labels in a specific way.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="User consent" summary="This form is used to share users’ data with the state." %}
-{% swagger-description %}
+## This form is used to share users’ data with the state.
+
+<mark style="color:green;">`POST`</mark> `User consent`
+
 **Form Create API:**
 
 "request": { "type": "user", "subType": "tenantPersonaInfo\_v2", "action": "get", "component": "app" } }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 "code": "tenant",
 "type": "select",
@@ -407,20 +423,22 @@ This is a select form field, where users can choose from a dropdown list of opti
 
 The form configuration also includes additional template options, such as a placeholder text that appears in the dropdown when no option is selected. The options themselves are defined by the values assigned to each label, such as "012775810960252928563" and "0129109366089728000".
 
-![](../../.gitbook/assets/ksnip\_20230505-191307.png)
+<img src="../../.gitbook/assets/ksnip_20230505-191307.png" alt="" data-size="original">
 
 One of the advantages of form configuration is its flexibility in allowing users to customize the form to their specific needs. For example, if the dropdown values needed to be changed to organizations instead of states, the label and options could be easily reconfigured. This adaptability can make the form more user-friendly and tailored to the specific use case or audience.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="Self declaration" summary="The Form is used for entering the ID requested by the state, board, or org." %}
-{% swagger-description %}
+## The Form is used for entering the ID requested by the state, board, or org.
+
+<mark style="color:green;">`POST`</mark> `Self declaration`
+
 **Form Create API:**
 
 { "request": { "from": "server", "type": "user", "subType": "selfDeclaration\_v3", "action": "submit", "component": "app" } }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 {
   "code": "declared-ext-id",
@@ -451,22 +469,24 @@ The "templateOptions" property specifies the label to display for the input fiel
 
 The "validations" property includes a regular expression pattern that restricts the characters that can be entered in the input field. The current pattern allows all characters except for some special characters, and displays a custom error message if any of these unsupported characters are entered.
 
-![](../../.gitbook/assets/ksnip\_20230505-192357.png)
+<img src="../../.gitbook/assets/ksnip_20230505-192357.png" alt="" data-size="original">
 
 The values from the response above can be configured and use it in the form. If the user wants the form to get School ID, they can put the necessary label instead of “Enter ID requested by State, Board or Org”.
 
 Overall, this form configuration provides flexibility and customization options for users to input a unique identifier code, while ensuring that the entered data meets certain validation criteria.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="Notifications" summary="This form will list all the notifications for the user. Users can see all the notifications by clicking on the bell notification icon on the mobile app." %}
-{% swagger-description %}
+## This form will list all the notifications for the user. Users can see all the notifications by clicking on the bell notification icon on the mobile app.
+
+<mark style="color:green;">`POST`</mark> `Notifications`
+
 **Form Create API:**
 
 "request": { "type": "config", "subType": "notification", "action": "get", "component": "app" } }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 "action": {
   "template": {
@@ -492,20 +512,22 @@ Overall, this form configuration provides flexibility and customization options 
 }
 ```
 
-![](../../.gitbook/assets/ksnip\_20230505-192838.png)
+<img src="../../.gitbook/assets/ksnip_20230505-192838.png" alt="" data-size="original">
 
 Notifications will list down and shows title from the response. This makes users’ life easier by allowing them to show their notifications similar to this.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="Location mapping config" summary="This form is used for showing the dropdown list of location values. This form is called location mapping config and using this config, location values are selected by users, to update the profile." %}
-{% swagger-description %}
+## This form is used for showing the dropdown list of location values. This form is called location mapping config and using this config, location values are selected by users, to update the profile.
+
+<mark style="color:green;">`POST`</mark> `Location mapping config`
+
 **Form Create API:**
 
 "request": { "type": "profileConfig\_v2", "subType": "default", "action": "get" }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 {
   "code": "state",
@@ -534,7 +556,7 @@ Notifications will list down and shows title from the response. This makes users
 }
 ```
 
-![](../../.gitbook/assets/ksnip\_20230508-124157.png)
+<img src="../../.gitbook/assets/ksnip_20230508-124157.png" alt="" data-size="original">
 
 This is a form configuration for a select field that allows users to choose a state from a list. Here are some ways in which a user can improvise this form configuration and use it according to their convenience:
 
@@ -547,19 +569,19 @@ This is a form configuration for a select field that allows users to choose a st
 4\. Add or modify validation rules: The user can add or modify the validation rules specified in the "validations" field. In this example, the only validation rule is to check if the field is required. The user can add other validation rules such as minimum and maximum length, regular expressions, or custom validation functions to ensure data integrity.
 
 Overall, this form configuration provides a lot of flexibility and customization options for users to tailor the select field to their specific needs and preferences. The values from the response can be taken as labels in the form and can be altered and used as per the user's requirements.
+{% endtab %}
+{% endtabs %}
 
+## This form is used for displaying the contents/criteria for the checkboxes on the feedback page. The feedback will be provided through this page and this form makes it easier by providing the opportunity to change these contents.
 
-{% endswagger-response %}
-{% endswagger %}
+<mark style="color:green;">`POST`</mark> `Content feedback`
 
-{% swagger method="post" path="" baseUrl="Content feedback" summary="This form is used for displaying the contents/criteria for the checkboxes on the feedback page. The feedback will be provided through this page and this form makes it easier by providing the opportunity to change these contents." %}
-{% swagger-description %}
 **Form Create API:**
 
 "request": { "type": "contentfeedback", "subType": "en", "action": "get" }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 {
   "key": "CONTENT_INACCURATE",
@@ -573,7 +595,7 @@ Overall, this form configuration provides a lot of flexibility and customization
 }
 ```
 
-![](<../../.gitbook/assets/ksnip\_20230508-124624 (1).png>)
+<img src="../../.gitbook/assets/ksnip_20230508-124624 (1).png" alt="" data-size="original">
 
 This form configuration consists of two options that users can select to provide feedback on the content of a page or application. The "key" field corresponds to the feedback option, the "idx" field represents the order of the option in the list, and the "value" field contains the text that will be displayed to the user.
 
@@ -585,19 +607,20 @@ Here are some ways in which a user can improvise this form configuration and use
 
 3\. Modify the display text: The user can modify the "value" field to change the text that will be displayed to the user. In this example, the display text for "CONTENT\_INACCURATE" is "Content is inaccurate", and the display text for "CONTENT\_NOT\_DISPLAYED" is "Content is not displayed properly". The user can customize these values to use different display text for each feedback option.
 
-Overall, this form configuration allows for easy customization of feedback options for users. The "key" field corresponds to the feedback option and can be modified to add new options or remove existing ones. The "value" field contains the text that will be displayed to the user and can be customized. The "idx" field represents the order of the feedback option and can be used to rearrange the order of options.\
+Overall, this form configuration allows for easy customization of feedback options for users. The "key" field corresponds to the feedback option and can be modified to add new options or remove existing ones. The "value" field contains the text that will be displayed to the user and can be customized. The "idx" field represents the order of the feedback option and can be used to rearrange the order of options.\\
+{% endtab %}
+{% endtabs %}
 
-{% endswagger-response %}
-{% endswagger %}
+## This form is used to get the deep link for QRcode and splash screen.
 
-{% swagger method="post" path="" baseUrl="Deep link " summary="This form is used to get the deep link for QRcode and splash screen." %}
-{% swagger-description %}
+<mark style="color:green;">`POST`</mark> `Deep link`&#x20;
+
 **Form Create API:**
 
 "request": { "type": "config", "subType": "deeplink", "action": "get" }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 {
  "code": "primaryCategory",
@@ -627,22 +650,22 @@ Overall, this form configuration allows for easy customization of feedback optio
 }
 ```
 
-
-
 This form configuration defines the possible values for the "primaryCategory" field in a form. It provides a list of options that the user can choose from, and the options are pre-defined in the "values" field of the configuration. The user can only select one option from the list as the configuration specifies the type as "default", which allows only one selection at a time.
 
 The "primaryCategory" field is a categorical variable, and this configuration makes it easier for the user to select a suitable value from the list. The user can add new values or remove existing ones from the list according to their needs.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="Managed User" summary="This form is used to add another managed user. We can enter the new user to be added using this form." %}
-{% swagger-description %}
+## This form is used to add another managed user. We can enter the new user to be added using this form.
+
+<mark style="color:green;">`POST`</mark> `Managed User`
+
 **Form Create API:**
 
 "request": { "type": "user", "subType": "manageduser", "action": "create", "component": "app" }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 {
   "code": "name",
@@ -661,24 +684,26 @@ The "primaryCategory" field is a categorical variable, and this configuration ma
 }
 ```
 
-![](../../.gitbook/assets/ksnip\_20230508-125224.png)
+<img src="../../.gitbook/assets/ksnip_20230508-125224.png" alt="" data-size="original">
 
 The above configuration code is for an input field that is used to collect a user's full name. The field is labeled "FULL\_NAME" and the placeholder text reads "ENTER\_USER\_NAME".
 
 The "validations" section ensures that the user must enter a value in the field, as indicated by the "required" validation type.
 
 This form configuration can be easily customized by changing the labels to fit the needs of the user or application. The input type can also be modified to support different types of data entry. Overall, this form configuration is a simple and effective way to gather important user information.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="Pdf Player" summary="The form is used to choose the type of player and open the corresponding player." %}
-{% swagger-description %}
+## The form is used to choose the type of player and open the corresponding player.
+
+<mark style="color:green;">`POST`</mark> `Pdf Player`
+
 **Form Create API:**
 
 "request": { "type": "config", "subType": "pdfPlayer\_v2", "action": "get" }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 "form": {
   "type": "config",
@@ -738,17 +763,19 @@ The "data" field contains information about the PDF player form's fields, includ
 Based on the type of content, the appropriate player will be selected and opened. Users can customize the PDF player form by modifying the values of the fields or by adding new fields to meet their specific requirements.
 
 Overall, this form configuration provides a straightforward and efficient method for users to access and display PDF content using a player.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="Utility popups" summary="The form will provide popups for some use cases such as experience switch between classic and new App experiences." %}
-{% swagger-description %}
+## The form will provide popups for some use cases such as experience switch between classic and new App experiences.
+
+<mark style="color:green;">`POST`</mark> `Utility popups`
+
 **Form Create API:**
 
 "request": { "type": "config", "subType": "utility", "action": "get", "component": "app" }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 "fields": [
   {
@@ -768,7 +795,7 @@ Overall, this form configuration provides a straightforward and efficient method
 ]
 ```
 
-![](../../.gitbook/assets/ksnip\_20230508-125623.png)
+<img src="../../.gitbook/assets/ksnip_20230508-125623.png" alt="" data-size="original">
 
 The above form configuration code provides information about two fields, namely "Course BatchEnd Config" and "Experience Switch Popup Config". The "code" field is used to identify each field uniquely.
 
@@ -779,17 +806,19 @@ Similarly, in the case of the "Experience Switch Popup Config" field, the "isEna
 Users can modify the values of these fields to suit their needs. For example, they can change the "batchEndDateTimer" parameter to a different value to set a different time interval for the batch end, or they can disable the "Experience Switch Popup" by setting the "isEnabled" parameter to "false".
 
 Overall, this form configuration provides users with the flexibility to customize the configuration settings for various use cases, making their life easier by providing a more personalized experience.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="Vendor applications" summary="This form provides the supported third-party reader applications to open any content." %}
-{% swagger-description %}
+## This form provides the supported third-party reader applications to open any content.
+
+<mark style="color:green;">`POST`</mark> `Vendor applications`
+
 **Form Create API:**
 
 "request": { "type": "config", "subType": "vendorapps", "action": "get", "component": "app" }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 "form": {
   "type": "config",
@@ -837,20 +866,22 @@ Overall, this form configuration provides users with the flexibility to customiz
 }
 ```
 
-![](../../.gitbook/assets/ksnip\_20230508-125925.png)
+<img src="../../.gitbook/assets/ksnip_20230508-125925.png" alt="" data-size="original">
 
 This form configuration is used to display a list of vendor apps and their associated details. In this specific case, the form displays information about the Google Bolo app, such as its logo, provider, and app version for both Android and iOS. It also specifies the file type and primary category that this app is able to handle. Users can use this information to open specific content using the Google Bolo app and can customize the configuration to suit their needs by updating the packageId, appVersion, and other details as necessary.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="Create project" summary="The form will be used to create projects. The labels will be provided according to the configuration this form provides. It will make user’s life easier by allowing them to change the labels in the form according to their preferences." %}
-{% swagger-description %}
+## The form will be used to create projects. The labels will be provided according to the configuration this form provides. It will make user’s life easier by allowing them to change the labels in the form according to their preferences.
+
+<mark style="color:green;">`POST`</mark> `Create project`
+
 **Form Create API:**
 
 "request": { "type": "user", "subType": "project", "action": "create" }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 {
   "field": "title",
@@ -869,20 +900,22 @@ This form configuration is used to display a list of vendor apps and their assoc
 }
 ```
 
-![](../../.gitbook/assets/ksnip\_20230508-130112.png)
+<img src="../../.gitbook/assets/ksnip_20230508-130112.png" alt="" data-size="original">
 
 This form configuration specifies a field called "Project Title" that is mandatory for the user to fill in. The label for this field is provided in both English and Hindi translations. The field is currently empty and can be edited by the user. The input type for this field is "text" and it has a maximum character limit of 50. Additionally, there is a hint for the user to provide a title for their project. This hint is also provided in English. Overall, this form configuration allows for easy customization of the label and hint text to fit the user's language preferences.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="Create task" summary="The form is used to get labels for the task creation page." %}
-{% swagger-description %}
+## The form is used to get labels for the task creation page.
+
+<mark style="color:green;">`POST`</mark> `Create task`
+
 **Form Create API:**
 
 "request": { "type": "user", "subType": "project", "action": "createTask" }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 {
   "field": "name",
@@ -899,17 +932,19 @@ This form configuration specifies a field called "Project Title" that is mandato
 ```
 
 The response API includes configuration for the "Name" field on a create task page, with labels provided in both English and Hindi. This field is editable and visible to the user, and its input is limited to text with a validation requirement of being mandatory. Users can customize the label according to their preferences, making it easier to navigate and use the create task page
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="Category labels" summary="In the browse other categories section of the home page, the labels are being given using this configuration." %}
-{% swagger-description %}
+## In the browse other categories section of the home page, the labels are being given using this configuration.
+
+<mark style="color:green;">`POST`</mark> `Category labels`
+
 **Form Create API:**
 
 "request": { "type": "category", "subType": "targetedCategory", "action": "homeListing" }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 "form": {
   "type": "category",
@@ -986,22 +1021,22 @@ The response API includes configuration for the "Name" field on a create task pa
     }
 ```
 
-![](../../.gitbook/assets/ksnip\_20230508-130346.png)
+<img src="../../.gitbook/assets/ksnip_20230508-130346.png" alt="" data-size="original">
 
 The form configuration contains a category-based selection component with a targeted category subtype. The response data specifies different categories and their associated subcategories. The category and subcategory names are used as labels in the "Browse other categories" section of the component. Users can customize these labels to better suit their needs. The form also contains additional data such as the template name, creation and modification dates, and root organization ID.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="Segmentation" summary="This form is used to create segmentation for notifications and banner." %}
-{% swagger-description %}
+## This form is used to create segmentation for notifications and banner.
+
+<mark style="color:green;">`POST`</mark> `Segmentation`
+
 **Form Create API:**
 
 "request": { "type": "config", "subType": "segmentation\_v2", "action": "get", "component": "app" }
 
-
-{% endswagger-description %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 {
   "filter": {
@@ -1031,20 +1066,22 @@ The form configuration contains a category-based selection component with a targ
 }
 ```
 
-![](../../.gitbook/assets/ksnip\_20230508-130619.png)
+<img src="../../.gitbook/assets/ksnip_20230508-130619.png" alt="" data-size="original">
 
 Suppose user selects State(Tamilnadu), Board as English and Grade as Class 1, then for this segment, the banners are shown. Similarly for particular set of values, particular notifications are shown. So using this form we can target specific users and show the banners and notifications.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="Supported url regex" summary="This form is used for getting the deep link regex and dial code regex." %}
-{% swagger-description %}
+## This form is used for getting the deep link regex and dial code regex.
+
+<mark style="color:green;">`POST`</mark> `Supported url regex`
+
 **Form Create API:**
 
 "request": { "type": "config", "subType": "supportedUrlRegex", "action": "get" }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 {
   "name": "Dialcode parser",
@@ -1063,17 +1100,19 @@ The "Dialcode parser" is particularly useful for applications that deal with alp
 Similarly, the "Identifier parser" is a versatile tool that can be used to extract information about courses, quizzes, or other types of content from URLs. By customizing the regular expression in the "values" field, developers can easily extract the relevant information from URLs and use it to provide a better user experience within their application.
 
 Overall, the form config provided in the code block gives developers the flexibility to create custom URL parsers that suit their specific needs. By leveraging the power of regular expressions, developers can make their web applications more efficient, user-friendly, and easy to use.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="Content filter" summary="This form is used to get the supported content filter for Library, Course, Download and Dialcode." %}
-{% swagger-description %}
+## This form is used to get the supported content filter for Library, Course, Download and Dialcode.
+
+<mark style="color:green;">`POST`</mark> `Content filter`
+
 **Form Create API:**
 
 "request": { "type": "config", "subType": "content\_v2", "action": "filter" }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 {
   "code": "primaryCategory",
@@ -1092,20 +1131,22 @@ Overall, the form config provided in the code block gives developers the flexibi
 }
 ```
 
-![](../../.gitbook/assets/ksnip\_20230508-130905.png)
+<img src="../../.gitbook/assets/ksnip_20230508-130905.png" alt="" data-size="original">
 
 The 'values' in the response represent the different types of content that can be filtered in the library section. Users can select the filters they need from the available options and use them to refine their search. The 'name' field specifies the category of the filter, in this case, it is the library.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="External ID verification." summary="The form is used to verify the teacher profile." %}
-{% swagger-description %}
+## The form is used to verify the teacher profile.
+
+<mark style="color:green;">`POST`</mark> `External ID verification.`
+
 **Form Create API:**
 
 "request": { "type": "user", "subType": "externalIdVerification", "action": "onboarding", "from": "server" }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 {
   "code": "externalIdVerificationLabels",
@@ -1124,17 +1165,19 @@ The 'values' in the response represent the different types of content that can b
 ```
 
 The form configuration provides a set of labels for the external ID verification process, specifically for verifying teacher profiles. The range field includes header, field, and popup labels for the verification process, including successful and unsuccessful verification labels. This simplifies the process for users and ensures that all the necessary information is available for verifying teacher profiles.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="Support form" summary="The form is used to provide a text area for describing user’s issues." %}
-{% swagger-description %}
+## The form is used to provide a text area for describing user’s issues.
+
+<mark style="color:green;">`POST`</mark> `Support form`
+
 **Form Create API:**
 
 "request": { "type": "dynamicform", "subType": "support\_v2", "action": "get", "component": "app" }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 {
   "code": "details",
@@ -1153,20 +1196,22 @@ The form configuration provides a set of labels for the external ID verification
 }
 ```
 
-![](../../.gitbook/assets/ksnip\_20230508-132349.png)
+<img src="../../.gitbook/assets/ksnip_20230508-132349.png" alt="" data-size="original">
 
 This form configuration provides a text area field with a maximum length of 1000 characters for users to provide additional details related to their support request. The label "Tell us more" and placeholder "Enter Details" help users understand what information is required in the text area field. The validation ensures that the input does not exceed the maximum allowed length. This form can be customized as per the user's requirements to suit their needs for submitting any type of request, complaint, or feedback.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="Board contact info" summary="This form is used to provide contact details of all boards for any support user needs." %}
-{% swagger-description %}
+## This form is used to provide contact details of all boards for any support user needs.
+
+<mark style="color:green;">`POST`</mark> `Board contact info`
+
 **Form Create API:**
 
 "request": { "type": "form", "subType": "boardContactInfo", "action": "get", "component": "app" }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 {
   "id": "up_k-12",
@@ -1180,20 +1225,22 @@ This form configuration provides a text area field with a maximum length of 1000
 }
 ```
 
-![](../../.gitbook/assets/ksnip\_20230508-132536.png)
+<img src="../../.gitbook/assets/ksnip_20230508-132536.png" alt="" data-size="original">
 
 The "name" field specifies the name of the board, and the "message" field indicates the hours during which the board can be contacted. The "contactinfo" object includes a phone number and email address for users to reach out for any queries.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="Content Request" summary="This form is used for requesting more content with more filters used." %}
-{% swagger-description %}
+## This form is used for requesting more content with more filters used.
+
+<mark style="color:green;">`POST`</mark> `Content Request`
+
 **Form Create API:**
 
 "request": { "type": "dynamicForm", "subType": "contentRequest", "action": "submit", "component": "app" }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 {
   "code": "board",
@@ -1219,17 +1266,19 @@ The "name" field specifies the name of the board, and the "message" field indica
 ```
 
 The form allows the user to select the educational board for which they want to request content. The options for the board field are dynamically populated using the data source specified in the form configuration. In this case, the options are fetched from a system that maps the suggested frameworks to framework categories and filters for the relevant term "CBSE". The user can only select one option as the field does not allow multiple selections. The form also includes a required validation to ensure the user selects an option before submitting the form. The form is a part of the "contentrequest" subtype and can be used to request specific educational content based on the selected board.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="Consent declaration" summary="This form is used for asking consent from users to share details." %}
-{% swagger-description %}
+## This form is used for asking consent from users to share details.
+
+<mark style="color:green;">`POST`</mark> `Consent declaration`
+
 **Form Create API:**
 
 "request": { "type": "dynamicForm", "subType": "consentDeclaration\_v3", "action": "submit", "component": "app" }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 {
   "code": "name",
@@ -1246,24 +1295,26 @@ The form allows the user to select the educational board for which they want to 
 }
 ```
 
-![](../../.gitbook/assets/ksnip\_20230508-132959.png)
+<img src="../../.gitbook/assets/ksnip_20230508-132959.png" alt="" data-size="original">
 
 The form configuration provided describes a field for capturing the user's name. The field is of type "text" and has a placeholder that displays "User name :" in English. The placeholder is defined using a JSON object with the "en" key, which specifies the language code.
 
 The "dataSrc" property of the field refers to a data source that provides the value for the field. In this case, the data source is a marker called "SERVER\_PROFILE", which may be used to fetch data related to the user's profile from the server. The "params" property specifies additional parameters to be passed to the server, such as the category code for the user's first name.
 
 This form configuration can be used to generate a form with a single field for capturing the user's name, and the data for this field can be fetched from the server using the specified data source. However, the description does not mention any other fields such as state or userId, so it is unclear whether these fields are part of the same form or not.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="Board alias" summary="This form is used for getting the aliased board names." %}
-{% swagger-description %}
+## This form is used for getting the aliased board names.
+
+<mark style="color:green;">`POST`</mark> `Board alias`
+
 **Form Create API:**
 
 "request": { "type": "config", "subType": "boardAlias", "action": "get", "component": "app" }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 "data": {
   "templateName": "boardAlias",
@@ -1282,17 +1333,19 @@ This form configuration can be used to generate a form with a single field for c
 The form configuration is used to fetch data related to a board using a specified template name and action. The "templateName" property specifies the name of the template used to fetch data, and "action" property specifies the type of action performed on the data.
 
 Using this form configuration, the UI can be updated to display the aliased name "CBSE/NCERT" instead of the original name "CBSE". The form configuration may be used to fetch other data related to the board as well, but the description only specifies one field.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="Supported activities" summary="This form is used to request more content." %}
-{% swagger-description %}
+## This form is used to request more content.
+
+<mark style="color:green;">`POST`</mark> `Supported activities`
+
 **Form Create API:**
 
 "request": { "type": "group", "subType": "supported\_activities", "action": "list" }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 {
   "index": 2,
@@ -1320,20 +1373,22 @@ The "searchQuery" property specifies a JSON object that contains the search crit
 
 The "title" property specifies the title of the form, which in this case is "Course". The "translations" property contains a JSON object that specifies translations of the form title in multiple languages, such as English, Assamese, Bengali, Gujarati, Hindi, Kannada, Marathi, Oriya, Punjabi, Tamil, Telugu, and Urdu.
 
-![](../../.gitbook/assets/ksnip\_20230508-133414.png)
+<img src="../../.gitbook/assets/ksnip_20230508-133414.png" alt="" data-size="original">
 
 Using this form configuration, users can browse content by the specified categories and search criteria, with the form displaying the relevant content in the desired sorting order.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="Frequently asked questions" summary="This form is used to get the list of all frequently asked questions." %}
-{% swagger-description %}
+## This form is used to get the list of all frequently asked questions.
+
+<mark style="color:green;">`POST`</mark> `Frequently asked questions`
+
 **Form Create API:**
 
 "/api/data/v1/system/settings/get/appFaqURL"
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 {
    "id": "appFaqURL",
@@ -1344,20 +1399,22 @@ Using this form configuration, users can browse content by the specified categor
 
 The system setting is identified by its unique ID, which is also "appFaqURL". This setting controls the URL of the frequently asked questions (FAQ) page for the application.
 
-![](../../.gitbook/assets/ksnip\_20230508-133645.png)
+<img src="../../.gitbook/assets/ksnip_20230508-133645.png" alt="" data-size="original">
 
 This system settings form configuration can be used to retrieve and modify the URL of the application's FAQ page, allowing users to customize the page's content or redirect it to a different location altogether.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="Custodian org ID" summary="This form is used for getting the custodian org ID which is a required value." %}
-{% swagger-description %}
+## This form is used for getting the custodian org ID which is a required value.
+
+<mark style="color:green;">`POST`</mark> `Custodian org ID`
+
 **Form Create API:**
 
 request: { path: "/api/data/v1/system/settings/get/custodianOrgId" }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 "response": {
   "id": "custodianOrgId",
@@ -1369,17 +1426,19 @@ request: { path: "/api/data/v1/system/settings/get/custodianOrgId" }
 The configuration response returns a JSON object that contains the following fields:
 
 This system settings form configuration allows users to retrieve the unique identifier of the custodian organization, which is used to manage the system's data and resources. By modifying this setting, users can change the custodian organization and transfer control of the system to a different organization.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="Deployment key" summary="This form is used to get the deployment key." %}
-{% swagger-description %}
+## This form is used to get the deployment key.
+
+<mark style="color:green;">`POST`</mark> `Deployment key`
+
 **Form Create API:**
 
 request: { path: "/api/data/v1/system/settings/get/hotCodePush" }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 "response": {
  "id": "hotCodePush",
@@ -1393,17 +1452,19 @@ The configuration response returns a JSON object that contains the following fie
 Hot code push is a feature that allows developers to update the application code without requiring users to download a new version of the application. By updating the "hotCodePush" system setting, developers can specify the deployment key used for hot code push, which determines which code updates are applied to the application.
 
 This system settings form configuration allows users to retrieve the current value of the hot code push deployment key, which can be used to diagnose issues related to code updates or to modify the deployment key to enable hot code push functionality.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="Group terms and conditions" summary="This form is used to get the terms and conditions related to groups." %}
-{% swagger-description %}
+## This form is used to get the terms and conditions related to groups.
+
+<mark style="color:green;">`POST`</mark> `Group terms and conditions`
+
 **Form Create API:**
 
 request: { path: "/api/data/v1/system/settings/get/groupsTnc" }
-{% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```
 "response": {
  "id": "groupsTnc",
@@ -1416,5 +1477,5 @@ The configuration response returns a JSON object that contains the following fie
 This system settings form configuration allows users to retrieve the latest version and URL of the terms and conditions for groups in the application. By modifying this setting, users can update the terms and conditions or change the URL to a different location.
 
 The terms and conditions for groups are typically used to inform users about the guidelines and rules for creating and managing groups within the application. The URL provided in the system setting configuration can be accessed by users to review the terms and conditions before creating or joining a group.
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}

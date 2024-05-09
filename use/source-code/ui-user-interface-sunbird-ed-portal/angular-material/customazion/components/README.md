@@ -7,3 +7,19 @@ In some cases, you may need to create custom components that extend Angular Mate
 {% content-ref url="buttons.md" %}
 [buttons.md](buttons.md)
 {% endcontent-ref %}
+
+{% content-ref url="card.md" %}
+[card.md](card.md)
+{% endcontent-ref %}
+
+{% content-ref url="toolbar.md" %}
+[toolbar.md](toolbar.md)
+{% endcontent-ref %}
+
+{% content-ref url="dialog.md" %}
+[dialog.md](dialog.md)
+{% endcontent-ref %}
+
+{% content-ref url="menu.md" %}
+[menu.md](menu.md)
+{% endcontent-ref %}
