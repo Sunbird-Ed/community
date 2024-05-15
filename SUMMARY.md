@@ -233,6 +233,7 @@
   * [What are all the flink jobs for](misc/misc-pages/what-are-all-the-flink-jobs-for.md)
   * [How does data flow into Druid](misc/misc-pages/how-does-data-flow-into-druid.md)
   * [Minimal build properties](misc/misc-pages/minimal-build-properties.md)
+  * [Delete User Functionality](misc/misc-pages/minimal-build-properties-1.md)
 * [Archived](misc/archived/README.md)
   * [High Level Capabilities](misc/archived/high-level-capabilities.md)
   * [Workflows](misc/archived/workflows.md)
