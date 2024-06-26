@@ -1,6 +1,6 @@
 # Release notes
 
-<table data-full-width="true"><thead><tr><th>Release Version</th><th>Date</th></tr></thead><tbody><tr><td>6.0.0</td><td>28-Sep-2023</td></tr><tr><td>6.0.1 (hotfix)</td><td>TBD</td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th>Release Version</th><th>Date</th></tr></thead><tbody><tr><td>6.0.0</td><td>28-Sep-2023</td></tr><tr><td>6.0.1 (hotfix)</td><td>26-Jun-2024</td></tr></tbody></table>
 
 ### Hotfix 6.0.1
 
