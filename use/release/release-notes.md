@@ -8,6 +8,14 @@
 
 In the release version 6.0.0, Sunbird ED underwent extensive testing on the Microsoft Azure platform. We are pleased to announce that, in addition to Azure, Sunbird ED has now been rigorously tested on Oracle Cloud Infrastructure (OCI), ensuring broader compatibility and reliability across multiple cloud services.
 
+#### Sunbird ED Reports fixed ([ED-3861](https://project-sunbird.atlassian.net/browse/ED-3861))
+
+Reports that were experiencing issues in prior versions have now been fixed in release 6.0.1.
+
+These changes are required for existing CSP Azure as well.&#x20;
+
+For CoKreat building block, refer [CO-874](https://project-sunbird.atlassian.net/browse/CO-874).
+
 {% hint style="info" %}
 Note: Please refer to the latest installation documents to include the latest updates
 {% endhint %}
@@ -178,9 +186,9 @@ The build tags used by the below building blocks for this release to upgrade you
 
 ### Installation or Upgrade
 
-[For fresh installation 6.0.0](https://ed.sunbird.org/use/installing-ed-platform/release-6.0.0-draft)
+[For fresh installation 6.0.1](../getting-started/install/)
 
-[Upgrade Sunbird from 5.2.0 to 6.0.0](https://ed.sunbird.org/use/updating-sunbird-releases/5.2.0-to-6.0.0-draft)
+[Upgrade Sunbird from 5.2.0 to 6.0.1](https://ed.sunbird.org/use/release/updating-sunbird-releases/5.2.0-to-6.0.0)
 
 ### Configuration/Environment variable
 

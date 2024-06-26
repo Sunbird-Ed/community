@@ -8,7 +8,7 @@ Note: This document has been revised to incorporate updates for version 6.0.1, i
 (updated on 26-06-2024)&#x20;
 {% endhint %}
 
-To install SunbirdED `release-6.0.0`, we will need to run many Jenkins jobs and a couple of manual steps. Some of the jobs need to be run in a specific order. This page details out the list of jobs, their order and the github release tags to be used for each job.
+To install SunbirdED `release-6.0.1`, we will need to run many Jenkins jobs and a couple of manual steps. Some of the jobs need to be run in a specific order. This page details out the list of jobs, their order and the github release tags to be used for each job.
 
 **Create Plugin Containers / Folder Structure**
 
