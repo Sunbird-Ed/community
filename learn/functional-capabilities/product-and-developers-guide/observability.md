@@ -76,7 +76,7 @@ All events follow a common data structure, though the event data structure (“e
 * All events have unique event codes i.e., (IDs).
 * All events are as per platform schema
 
-For more information about **Telemetry services** please click [here](https://app.gitbook.com/s/ttPCtrHlLrl4MRuGlakt/learn/product-and-developer-guide/telemetry-service)
+For more information about **Telemetry services** please click [here](https://app.gitbook.com/s/ttPCtrHlLrl4MRuGlakt/previous-versions/sb-5.0-version/learn/product-and-developer-guide/telemetry-service)
 
 **Telemetry Spec**
 
@@ -102,19 +102,19 @@ For more information about **Telemetry Spec** please click [here](https://app.gi
 
 **Data Service -**
 
-For more information about **Data services** please click [here](https://app.gitbook.com/s/ttPCtrHlLrl4MRuGlakt/learn/product-and-developer-guide/data-service)
+For more information about **Data services** please click [here](https://app.gitbook.com/s/ttPCtrHlLrl4MRuGlakt/previous-versions/sb-5.0-version/learn/product-and-developer-guide/data-service)
 
 **Data Pipeline**
 
-For more information about **Data Pipeline** please click [here](https://app.gitbook.com/s/ttPCtrHlLrl4MRuGlakt/learn/product-and-developer-guide/data-pipeline)
+For more information about **Data Pipeline** please click [here](https://app.gitbook.com/s/ttPCtrHlLrl4MRuGlakt/previous-versions/sb-5.0-version/learn/product-and-developer-guide/data-pipeline)
 
 **Report Service**
 
-For more information about **Report services** please click [here](https://app.gitbook.com/s/ttPCtrHlLrl4MRuGlakt/learn/product-and-developer-guide/report-service)
+For more information about **Report services** please click [here](https://app.gitbook.com/s/ttPCtrHlLrl4MRuGlakt/previous-versions/sb-5.0-version/learn/product-and-developer-guide/report-service)
 
 **Report Configurator**
 
-For more information about **Report Configurator** please click [here](https://app.gitbook.com/s/ttPCtrHlLrl4MRuGlakt/learn/product-and-developer-guide/report-configurator)
+For more information about **Report Configurator** please click [here](https://app.gitbook.com/s/ttPCtrHlLrl4MRuGlakt/previous-versions/sb-5.0-version/learn/product-and-developer-guide/report-configurator)
 
 {% hint style="info" %}
 Powered By [Sunbird Obsrv](https://app.gitbook.com/o/-Mi9QwJlsfb7xuxTBc0J/s/ttPCtrHlLrl4MRuGlakt/ "mention")

@@ -1,6 +1,6 @@
 # Update Ansible Variables
 
-Ansible is the configuration management system used in Sunbird. Provisioning, deployment of services and other configurations are handled primarily through ansible.&#x20;
+Ansible is the configuration  management system used in Sunbird. Provisioning, deployment of services and other configurations are handled primarily through ansible.&#x20;
 
 **Updating the Private Repository with Hosts and Variables**
 
@@ -10,7 +10,7 @@ Execute the following commands in your local to clone the private repo template 
 
 `cd sunbird-devops`
 
-`git checkout tags/release-6.0.0 -b release-6.0.0`
+`git checkout tags/release-7.0.0 -b release-7.0.0`
 
 * Copy the directory `sunbird-devops/private_repo/ansible` to your private repo local workspace
 * Run the `key-generate.sh` script located under `ansible/inventory/dev` folder. The script will ask for the ansible vault password. Enter the same vault password that you used in the Jenkins setup stage. The script will generate many private key files and they will be encrypted with the vault password. Deployments will fail if keys are not encrypted.
