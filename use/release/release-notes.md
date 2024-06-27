@@ -4,11 +4,27 @@
 
 ### Hotfix 6.0.1
 
-#### Platform Compatibility Update: Cloud agnostic feature (tested on OCI) ([ED-2631](https://project-sunbird.atlassian.net/browse/ED-2631))
+### Overview
+
+In the hotfix release, we have ensured that Sunbird ED is comaptible across Azure and OCI environments and fixed the issues appearing in the reports.
+
+Discussion thread: [https://github.com/orgs/Sunbird-Ed/discussions/729](https://github.com/orgs/Sunbird-Ed/discussions/729)
+
+#### 1. Platform Compatibility Update: Cloud agnostic feature (tested on OCI) ([ED-2631](https://project-sunbird.atlassian.net/browse/ED-2631))
+
+<details>
+
+<summary>Details</summary>
 
 In the release version 6.0.0, Sunbird ED underwent extensive testing on the Microsoft Azure platform. We are pleased to announce that, in addition to Azure, Sunbird ED has now been rigorously tested on Oracle Cloud Infrastructure (OCI), ensuring broader compatibility and reliability across multiple cloud services.
 
-#### Sunbird ED Reports fixed ([ED-3861](https://project-sunbird.atlassian.net/browse/ED-3861))
+</details>
+
+#### 2. Sunbird ED Reports fixed ([ED-3861](https://project-sunbird.atlassian.net/browse/ED-3861))
+
+<details>
+
+<summary>Details</summary>
 
 Reports that were experiencing issues in prior versions have now been fixed in release 6.0.1.
 
@@ -16,11 +32,21 @@ These changes are required for existing CSP Azure as well.&#x20;
 
 For CoKreat building block, refer [CO-874](https://project-sunbird.atlassian.net/browse/CO-874).
 
+</details>
+
 {% hint style="info" %}
 Note: Please refer to the latest installation documents to include the latest updates
 {% endhint %}
 
-### Overview
+### Open/Known Bugs in 6.0.1 release
+
+There are a few open bugs in this hotfix release-6.0.1. For a complete list, refer to this [link](https://project-sunbird.atlassian.net/issues/?jql=issuetype+in+%28Bug%2C+Defect%29+AND+stat\[%E2%80%A6]024-08-30+AND+labels+%3D+OCI\_Issue+AND+status+%3D+Open):
+
+1. In the course adoption report, Course Adoption report play and time spent data is not getting reflected - [ED-4450](https://project-sunbird.atlassian.net/browse/ED-4450)
+2. In the Live ETB QR code report, Detailed data tab submitted data is not getting reflected - [ED-4451](https://project-sunbird.atlassian.net/browse/ED-4451)
+3. Not able to import the content from the Hamburger menu - [ED-3677](https://project-sunbird.atlassian.net/browse/ED-3677)
+
+### Overview (6.0.0)
 
 This release majorly highlights the CSP changes and angular upgrades. Sunbird ED is now cloud agnostic; it will run seamlessly on any cloud service. Both the web app and mobile app have completed the angular upgrades.
 
