@@ -2,7 +2,7 @@
 
 **Recommended Permissions and Experience**
 
-To successfully complete Sunbird installation, you need to have:
+To successfully complete Sunbird ED installation, you need to have:
 
 * System administrator permissions on and all servers
 * Hands-on experience in administering and debugging Linux systems
@@ -12,12 +12,12 @@ To successfully complete Sunbird installation, you need to have:
 
 **Infra Requirements**
 
-* Kubernetes Cluster\[1.24.x] with 5 worker nodes each of 4 Core 16 GB RAM
+* Kubernetes Cluster\[1.27.x] with 5 worker nodes each of 4 Core 16 GB RAM
 * Total 6 VM's are required each of 4 Core 16 GB RAM
 * Private GitHub repository to store ansible inventory
 * Fully Qualified Domain Name (FQDN) with SSL
 * Object Storage with CORS enabled
-* Docker hub account or Any docker registry
+* Container registry - Docker Hub, Amazon ECR, Azure ACR etc.
 * Public IP
 * Google OAuth Credentials
 
@@ -28,7 +28,7 @@ To successfully complete Sunbird installation, you need to have:
 > **Steps to create:** Login to https://www.google.com/recaptcha/admin and create one for domain
 
 * Maxmind city database (free or paid)
-* A SMTP account (any email provider works, except Gmail for now)
+* Email service provider
 * All ports must be open for internal communication between the VM's/Servers provisioned for the installation
 
 > **Note:** If resources are isolated by subnets, then subnet-to-subnet communication needs to be enabled by security rules
@@ -37,15 +37,15 @@ To successfully complete Sunbird installation, you need to have:
 
 > **Note:** This is required to install dependent packages from the ubuntu package manager and other open source repositories
 
-* A sms service provider API Token (optional)
+* MSG91 sms service provider API Token (optional)
 
-> **Note:** This is required to get OTP's to registered email address when user register or reset
+> **Note:** This is required to get OTP's to registered phone number when user register or reset
 
 * YouTube API Token (optional)
 
 > **Note:** This is required to upload video content directly using youtube URL
 
-* Slack account and slack bot with API Token (optional)
+* Slack account and slack bot with API Token for monitoring alerts (optional)
 
 **Provisioning Servers**
 
