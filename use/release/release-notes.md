@@ -1,6 +1,6 @@
 # Release notes
 
-<table data-full-width="true"><thead><tr><th>Release Version</th><th>Date</th></tr></thead><tbody><tr><td>7.0.0</td><td>TBD</td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th>Release Version</th><th>Date</th></tr></thead><tbody><tr><td>7.0.0</td><td>28-Jun-2024</td></tr></tbody></table>
 
 ### Overview
 
@@ -51,21 +51,9 @@ Follow the links to configure the forms step-by-step for the [portal](https://pr
 
 </details>
 
-### Enhancements / Technical Tasks
+### Enhancements/Technical Tasks
 
-#### **1.**[ ](https://github.com/Sunbird-Ed/Community/blob/7e03a2a3a6d002b0f80afa6c5a80994949125228/use/releases/release-notes/6.0.0-draft.md#enhancements-technical-tasks-details)Capacitor migration ([ED-2963](https://project-sunbird.atlassian.net/browse/ED-2963))
-
-<details>
-
-<summary>Details</summary>
-
-Migration from Cordova to Capacitor version 5
-
-Note: Capacitor beta version is done
-
-</details>
-
-#### **2.** Improved file upload feedback **(**[**ED-1629**](https://project-sunbird.atlassian.net/browse/ED-1629)**)**
+#### **1.** Improved file upload feedback **(**[**ED-1629**](https://project-sunbird.atlassian.net/browse/ED-1629)**)**
 
 <details>
 
@@ -75,7 +63,7 @@ Users will now see a pop-up message and an error icon if any files fail to uploa
 
 </details>
 
-#### 3. Enhanced task end date validation ([ED-1373](https://project-sunbird.atlassian.net/browse/ED-1373))
+#### 2. Enhanced task end date validation ([ED-1373](https://project-sunbird.atlassian.net/browse/ED-1373))
 
 <details>
 
@@ -85,29 +73,35 @@ Users can now only set the task end date within the project start and end dates.
 
 </details>
 
-#### 4. Content creation screen in Workspace is enhanced ([ED-2429](https://project-sunbird.atlassian.net/browse/ED-2429))
+#### 3. Enhanced content creation screen in Workspace ([ED-2429](https://project-sunbird.atlassian.net/browse/ED-2429))
 
 <details>
 
 <summary>Details</summary>
 
-Currently, the content creation screen in the workspace is static. This is enhanced, and it is made dynamic and configurable.
+Currently, the workspace creation content is static and requires reconfiguration. To address this, the primary categories are made configurable.
+
+A new form API that includes fields for code, category, and visibility to enable tile configuration is introduced. This will allow any adaptor to hide or modify categories without necessitating code changes in the future.
+
+For more details, refer to [CO-724](https://project-sunbird.atlassian.net/browse/CO-724).
 
 </details>
 
 ### Bug Fixes
 
-This release had a few bug fixes. For a complete list, refer to this link
+This release had a few bug fixes. For a complete list, refer to this [link](https://project-sunbird.atlassian.net/issues/?jql=project%20%3D%20ED%20AND%20type%20%3D%20Bug%20AND%20status%20IN%20\(Done%2C%20%22In%20Validation%22\)%20AND%20sprint%20IN%20\(445%2C%20496\)%0AORDER%20BY%20created%20DESC).
 
-
+1. Observation-led imp flow is not working as expected for the projects that have certificates ([ED-3261](https://project-sunbird.atlassian.net/browse/ED-3261))
+2. The project is already available in the program even without importing it ([ED-3280](https://project-sunbird.atlassian.net/browse/ED-3280))
+3. NVSK data issue ([ED-3094](https://project-sunbird.atlassian.net/browse/ED-3094))
 
 ### Open/Known Bugs
 
-There are a few known bugs in this release. For a complete list, refer to this link
+There are a few known bugs in this release. For a complete list, refer to this [link](https://project-sunbird.atlassian.net/issues/?filter=12872\&jql=status%20IN%20\(Open%2C%20%22Selected%20for%20Contribution%22%2C%20%22In%20Development%22%2C%20%22Failed%20Validation%22\)%0AAND%20affectedversion%20%3D%207.0.0%0AAND%20project%20%3D%20ED%0AAND%20type%20%3D%20Bug%0AORDER%20BY%20created%20DESC).
 
-1. Observation led imp flow is not working as expected for the projects that has certificates ([ED-3261](https://project-sunbird.atlassian.net/browse/ED-3261))
-2. Project is already available in the program even without importing it ([ED-3280](https://project-sunbird.atlassian.net/browse/ED-3280))
-3. NVSK data issue ([ED-3094](https://project-sunbird.atlassian.net/browse/ED-3094))
+1. In the portal, Hawkeye reports, the newly consumed data is not getting reflected in the ED reports i.e. Course Adoption report and Live ETB QR code - [ED-4453](https://project-sunbird.atlassian.net/browse/ED-4453)
+2. Discussion Forum: After deletion of the user account, the username appears instead of the "Deleted user" tag on the discussion forum post - [ED-3461](https://project-sunbird.atlassian.net/browse/ED-3461)
+3. The user is unable to consume the resource in the mobile app - [ED-4046](https://project-sunbird.atlassian.net/browse/ED-4046)
 
 ### Build Tags
 
@@ -143,9 +137,11 @@ _Note: There are no APIs deprecated or removed in this release._
 
 ### Breaking Changes
 
-Portal:&#x20;
+Release 7.0.0 introduces significant updates aimed at generalising the Sunbird ED platform. This involves the removal of hard-coded values within the Mobile and Portal applications. The following breaking changes are the necessary adjustments developers and users need to be aware of:
 
-Mobile:
+Portal: Refer [ED-3042](https://project-sunbird.atlassian.net/browse/ED-3042)
+
+Mobile: Refer [ED-1957](https://project-sunbird.atlassian.net/browse/ED-1957)
 
 ### Release Notes: Dependent building blocks
 
