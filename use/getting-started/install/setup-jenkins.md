@@ -6,7 +6,7 @@ Jenkins is used to build, deploy and setup the infrastructure for Sunbird. Almos
 
     ```bash
        git clone https://github.com/project-sunbird/sunbird-devops.git
-       cd sunbird-devops && git checkout tags/release-6.0.0 -b release-6.0.0
+       cd sunbird-devops && git checkout tags/release-7.0.0 -b release-7.0.0
        cd deploy/jenkins
        sudo bash jenkins-server-setup.sh
     ```
@@ -49,8 +49,8 @@ Jenkins is used to build, deploy and setup the infrastructure for Sunbird. Almos
     ${GH_PASSWORD} to the github access token which has access to the private repository
     ${GH_PRIVATE_REPO_URL} to the private github repository URL where the environment variables and servers information is updated
     ${GH_PRIVATE_REPO_BRANCH} to the name of the private repo branch where the environment variables and servers information is updated
-    ${GH_PUBLIC_REPO_BRANCH} to "release-6.0.0"
-    ${KP_PUBLIC_REPO_BRANCH} to "release-5.5.0"
+    ${GH_PUBLIC_REPO_BRANCH} to "release-7.0.0"
+    ${KP_PUBLIC_REPO_BRANCH} to "release-5.7.0"
     ${DP_PUBLIC_REPO_BRANCH} to "release-5.2.0"
 
     vim ~/jenkins.yaml

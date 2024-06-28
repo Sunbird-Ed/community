@@ -64,7 +64,7 @@ ansible
 
 * Neo4j community artifact needs to be downloaded from neo4j official website [http://dist.neo4j.org/neo4j-community-3.3.9-unix.tar.gz](http://dist.neo4j.org/neo4j-community-3.3.9-unix.tar.gz) (only Neo4j 3.4 and below is supported)
 * Upload downloaded artifact to `cloud_storage_artifacts_bucketname`
-* Update `neo4j_zip` variable with artifact name `Eg: neo4j-community-3.3.9-unix.tar.gz`
+* Update `neo4j_zip` variable in `KnowledgePlatform/common.yml`with artifact name `Eg: neo4j-community-3.3.9-unix.tar.gz`
 
 > Note:
 >
@@ -86,7 +86,6 @@ ansible
 | ​                  | ​        | Kafka                     | processing-cluster-kafka, ingestion-cluster-kafka, kafka-1, kafka                                                                                                               |
 | Data Pipeline      | Server-4 | Spark                     | spark                                                                                                                                                                           |
 | ​                  | ​        | Kafka Indexer (Logstash)  | kafka-indexer                                                                                                                                                                   |
-| ​                  | ​        | InfluxDB                  | influxdb                                                                                                                                                                        |
 | ​                  | ​        | Keycloak                  | keycloak-1, keycloak                                                                                                                                                            |
 | Learning           | Server-5 | Learning                  | learning1, learning, learningall                                                                                                                                                |
 | ​                  | ​        | Graylog                   | graylog-1, graylog                                                                                                                                                              |

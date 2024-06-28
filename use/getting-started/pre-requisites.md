@@ -2,13 +2,13 @@
 
 **Recommended Permissions and Experience**
 
-To successfully complete Sunbird installation, you need to have:
+To successfully complete Sunbird ED installation, you need to have:
 
 * System administrator permissions on and all servers
 * Hands-on experience in administering and debugging Linux systems
 * Hands-on experience using Docker and Kubernetes to run containerised services
 
-> **Note:** Sunbird is tested only on cloud hosted Ubuntu servers. We do not provide any support for installing Sunbird on other operating systems.
+> **Note:** Sunbird ED is tested only on cloud hosted Ubuntu servers.&#x20;
 
 **Infra Requirements**
 
@@ -28,7 +28,7 @@ To successfully complete Sunbird installation, you need to have:
 > **Steps to create:** Login to https://www.google.com/recaptcha/admin and create one for domain
 
 * Maxmind city database (free or paid)
-* A SMTP account (any email provider works, except Gmail for now)
+* Email service provider
 * All ports must be open for internal communication between the VM's/Servers provisioned for the installation
 
 > **Note:** If resources are isolated by subnets, then subnet-to-subnet communication needs to be enabled by security rules
@@ -37,7 +37,7 @@ To successfully complete Sunbird installation, you need to have:
 
 > **Note:** This is required to install dependent packages from the ubuntu package manager and other open source repositories
 
-* A sms service provider API Token (optional)
+* MSG91 sms service provider API Token (optional)
 
 > **Note:** This is required to get OTP's to registered email address when user register or reset
 
@@ -45,10 +45,11 @@ To successfully complete Sunbird installation, you need to have:
 
 > **Note:** This is required to upload video content directly using youtube URL
 
-* Slack account and slack bot with API Token (optional)
+* Slack account and slack bot with API Token for monitoring alerts(optional)
 
 **Provisioning Servers**
 
 Before you start the installation process, ensure that you have the required infrastructure mentioned above is provisioned. Every component in SunbirdEd can scale horizontally / vertically by adding additional resources. Please find the mapping between server and the application components below.
 
-<table><thead><tr><th>APPLICATION COMPONENT</th><th>SERVER CONFIG</th><th width="192.33333333333331">COUNT</th></tr></thead><tbody><tr><td>Jenkins</td><td>4core 16GB RAM 250G HDD</td><td>1</td></tr><tr><td>KP</td><td>4core 16GB RAM 60G HDD</td><td>1</td></tr><tr><td>DP</td><td>4core 16GB RAM 60G HDD</td><td>1</td></tr><tr><td>DB</td><td>4core 16GB RAM 60G HDD</td><td>1</td></tr><tr><td>Learning</td><td>4core 16GB RAM 60G HDD</td><td>1</td></tr><tr><td>Druid</td><td>4core 16GB RAM 60G HDD</td><td>1</td></tr><tr><td>Basic Load Balancers</td><td>Layer 4</td><td>2 (Optional)</td></tr></tbody></table>
+<table><thead><tr><th>APPLICATION COMPONENT</th><th>SERVER CONFIG</th><th width="192.33333333333331">COUNT</th></tr></thead><tbody><tr><td>Jenkins</td><td>4core 16GB RAM 250G HDD</td><td>1</td></tr><tr><td>KP</td><td>4core 16GB RAM 60G HDD</td><td>1</td></tr><tr><td>DP</td><td>4core 16GB RAM 60G HDD</td><td>1</td></tr><tr><td>DB</td><td>4core 16GB RAM 60G HDD</td><td>1</td></tr><tr><td>Learning</td><td>4core 16GB RAM 60G HDD</td><td>1</td></tr><tr><td>Druid</td><td>4core 16GB RAM 60G HDD</td><td>1</td></tr><tr><td>Load Balancers</td><td>Layer 4</td><td>2 (Optional)</td></tr></tbody></table>
+

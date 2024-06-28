@@ -1,31 +1,10 @@
 # Provision Cloud Infrastructure
 
-> Currently, we have automated infra provision scripts available for azure cloud service provider. If you are using any other cloud service provider, provision infrastructure manually as per the pre-requisites or write automation scripts for the same and contribute.&#x20;
-
-
-
-**Provisioning infrastructure on Azure**
-
-You can run the following steps to create azure infrastructure using ansible.
-
-Easiest way to use the script will be to use azure cloud shell, as the cloud shell comes with all prerequisites bundled.
-
-* login to portal.azure.com
-* click on the cloudshell -> select bash ( if you’re using it for the first time )
-
-If you want to run this on your local machine, Follow this [guide](https://docs.microsoft.com/en-us/azure/developer/ansible/install-on-linux-vm?tabs=azure-cli#install-ansible-on-the-virtual-machine).
-
-```
-git clone https://github.com/project-sunbird/sunbird-devops -b release-6.0.0
-cd sunbird-devops/deploy
-# Update the necessary variables in playbook like ssh public key path, resource group name, AKS version, Storage account name, container registry etc. 
-ansible-playbook -c local azure-provision.yaml
-# Resulting infrastructure infromation will be stored in sunbird-devops/deploy/azure-resources.txt file.
-```
+>
 
 **Creating the AKS cluster from Azure console**
 
-> Incase if you are having trouble in creating AKS cluster using the above script, follow the steps given below to create the Kubernetes cluster in Azure. The AKS cluster and VM’s should be in same vnet. If they are in different vnet, you have to peer the vnets. To successfully peer, the IP address of the vnets should not overlap.
+> To create AKS cluster follow the steps given below. The AKS cluster and VM’s should be in same vnet. If they are in different vnet, you have to peer the vnets. To successfully peer, the IP address of the vnets should not overlap.
 
 * Create a service principal and assign contributor role to service principal. Ref: [https://learn.microsoft.com/en-us/cli/azure/azure-cli-sp-tutorial-1?tabs=bash](https://learn.microsoft.com/en-us/cli/azure/azure-cli-sp-tutorial-1?tabs=bash)
 * Get the secrets and client id of service principal
@@ -64,6 +43,6 @@ Get the kubeconfig file for your cluster with the below command -
 
 * Object storage with CORS enabled
 * Virtual network to host VM's and Kubernetes cluster
-* Kubernetes cluster with 4 worker nodes each node with 4 Core, 16GB RAM configuration
+* Kubernetes cluster with 5 worker nodes each node with 4 Core, 16GB RAM configuration
 * Create Compute Instances/VM's as mentioned in pre-requisites section
 * Make sure kubernetes cluster and VM's can communicate with each other
