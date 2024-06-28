@@ -73,7 +73,7 @@
 * [Latest Release - 7.0.0](use/release/README.md)
   * [Release notes](use/release/release-notes.md)
   * [Updating Sunbird Releases](use/release/updating-sunbird-releases/README.md)
-    * [6.0.0 to 7.0.0](use/release/updating-sunbird-releases/5.2.0-to-6.0.0.md)
+    * [6.0.0 to 7.0.0](use/release/updating-sunbird-releases/6.0.0-to-7.0.0.md)
   * [Release Calendar 7.0.0](use/release/release-calendar-6.0.0.md)
   * [Demo of released items](use/release/demo-of-released-items.md)
 * [Developer Guide](use/source-code/README.md)
