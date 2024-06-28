@@ -107,27 +107,27 @@ There are a few known bugs in this release. For a complete list, refer to this [
 
 The build tags used by the below building blocks for this release to upgrade your Sunbird ED are:
 
-_Sunbird ED_
+[_Sunbird ED_](https://ed.sunbird.org/v/release-7.0.0-draft/use/release/updating-sunbird-releases/6.0.0-to-7.0.0#sunbirded)
 
-_Sunbird Lern_
+[_Sunbird Lern_](https://ed.sunbird.org/v/release-7.0.0-draft/use/release/updating-sunbird-releases/6.0.0-to-7.0.0#sunbird-lern)
 
-_Sunbird Obsrv_
+[_Sunbird Obsrv_](https://ed.sunbird.org/v/release-7.0.0-draft/use/release/updating-sunbird-releases/6.0.0-to-7.0.0#sunbird-obsrv)
 
-_Sunbird-Knowlg_
+[_Sunbird-Knowlg_](https://ed.sunbird.org/v/release-7.0.0-draft/use/release/updating-sunbird-releases/6.0.0-to-7.0.0#sunbird-knowlg)
 
-_Sunbird-InQuiry_
+[_Sunbird-InQuiry_](https://ed.sunbird.org/v/release-7.0.0-draft/use/release/updating-sunbird-releases/6.0.0-to-7.0.0#sunbird-inquiry)
 
 ### Installation or Upgrade
 
-_For fresh installation 7.0.0_
+[_For fresh installation 7.0.0_](https://ed.sunbird.org/v/release-7.0.0-draft/use/getting-started/install)
 
-_Upgrade Sunbird from 6.0.0 to 7.0.0_
+[_Upgrade Sunbird from 6.0.1 to 7.0.0_](https://ed.sunbird.org/v/release-7.0.0-draft/use/release/updating-sunbird-releases/6.0.0-to-7.0.0)
 
 ### Configuration/Environment variable
 
 This section provides a list of environment variables with their default values and descriptions required to run either the Sunbird portal or mobile service. To change the default behavior, modify the variable value based on your requirements.
 
-_Adding new variables_
+_Note: There are no new variables added in this release_
 
 ### Deprecations and Removals
 
