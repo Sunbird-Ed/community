@@ -82,6 +82,7 @@
   * [Install Locally](use-1/install-locally/README.md)
     * [SunbirdED Mobile](use-1/install-locally/sunbirded-mobile.md)
     * [SunbirdED Portal](use-1/install-locally/sunbirded-portal.md)
+  * [Easy Installer](use/source-code/easy-installer.md)
   * [Configuration](use/source-code/configuration/README.md)
     * [SunbirdEd Portal](use/source-code/configuration/sunbirded-portal.md)
     * [Sunbird Mobile](use/source-code/configuration/sunbird-mobile.md)
