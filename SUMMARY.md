@@ -202,6 +202,7 @@
   * [API's](use/apis.md)
   * [Admin Dashboard Reports](use/source-code/admin-dashboard-reports.md)
   * [CSP changes](use/developer-guide/csp-changes.md)
+  * [Reports](use/source-code/reports.md)
   * [Other](use/source-code/other/README.md)
     * [Minimal forms](use/source-code/other/minimal-forms.md)
     * [Telemetry](use/source-code/other/telemetry/README.md)

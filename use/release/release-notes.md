@@ -30,6 +30,8 @@ Reports that were experiencing issues in prior versions have now been fixed in r
 
 These changes are required for existing CSP Azure as well.&#x20;
 
+To know more details on reports, click [here](https://sunbird.gitbook.io/sunbird-cokreat-1/v/release-7.0.0-draft-1/use/developer-guide/reports).
+
 For CoKreat building block, refer [CO-874](https://project-sunbird.atlassian.net/browse/CO-874).
 
 </details>
