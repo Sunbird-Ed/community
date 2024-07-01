@@ -1,24 +1,25 @@
 # Asset Sourcing
 
-For a meaningful discovery of assets, assets can be crowdsourced, tagged to relevant frameworks, and contributed using an asset sourcing web app.
+### <mark style="color:orange;">What is Asset Sourcing?</mark>
 
-Some of the features that ED leverages from Asset sourcing are, allowing users to
+Asset sourcing is the process of managing contributions, crowdsourcing, and curating digital assets using an asset sourcing portal. It involves creating an asset taxonomy, identifying framework categories, associating assets with multiple types, reviewing, publishing assets, and more.
 
-1. Create asset taxonomy for content
-2. Identify framework categories
-3. Associate assets with multiple types such as audience type, topic, etc.
-4. Create framework - Organization and target framework
-5. Meaningfully review, publish the asset
-6. Create customised collections such as Textbook, Courses, etc.
-7. Associate assets with collections
-8. Create and publish a sourcing project with a defined scope of assets to be sourced and a schedule
-9. Review the nominations to a sourcing project from contributors
-10. Review the asset contributions to a sourcing project from the approved set of contributors
-11. Curate and publish the assets for consumption
-12. Enroll as a contributor
-13. Nominate to one or more sourcing projects
-14. Contribute assets to the approved sourcing projects
-15. Get the consumption details of the assets that got published for consumption
-16. Check various reports such as Collection level gap report, Folder level gap report, Visitor's report, etc.
+### <mark style="color:orange;">Why do you need to source assets?</mark>
 
-The above capabilities of Asset Sourcing are derived from components of Sunbird CoKreat. You can find details by clicking on the link [here](product-and-developers-guide/asset-sourcing.md)
+Asset sourcing is needed for a meaningful discovery of assets. It allows assets to be crowdsourced, tagged to relevant frameworks, and contributed using an asset sourcing web app, which facilitates the creation, review, publication, and curation of assets for consumption.
+
+### <mark style="color:orange;">How can you use asset sourcing?</mark>
+
+Here's how you can use asset sourcing. You can:
+
+1. **Create a Sourcing Project**: As an organization admin, create a project to source assets. Define the purpose of the project, select the sourcing type (from anyone, selected contributors, or within your organization), and set nomination and contribution deadlines.
+2. **Seek Contributions**: Once the project is created, contributors can enroll and nominate themselves to contribute assets.
+3. **Review and Curate**: Review the nominations and contributions received from contributors. You can choose to have a two-level review process (contributing organization admin and sourcing organization admin) or skip it.
+4. **Publish Assets**: After reviewing and curating the assets, publish them for consumption by your users.
+5. **Monitor Usage**: Keep track of the usage and feedback of the published assets to identify areas for improvement.
+
+### <mark style="color:orange;">How to configure?</mark>
+
+Asset Sourcing can be used by leveraging the features provided by the Sourcing Web App, Contribution Service, and Contribution Registry components of Sunbird CoKreat. The coKreat platform provides tools and services to support the engagement, collection, curation, publishing, monitoring, and rewarding of contributions throughout the asset sourcing process.
+
+You can find details by clicking on the link [here](product-and-developers-guide/asset-sourcing.md)

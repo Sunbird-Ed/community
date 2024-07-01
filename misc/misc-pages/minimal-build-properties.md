@@ -1,6 +1,6 @@
 # Minimal build properties
 
-To ensure different adapters easily adopt the sunbird, it is important to understand the minimal build properties required. In this article, we will delve into these requirements and explore the key factors that play a role in ensuring a seamless integration of sunbird.
+To ensure different adapters easily adopt the Sunbird, it is important to understand the minimal build properties required. In this article, we will delve into these requirements and explore the key factors that play a role in ensuring a seamless integration of Sunbird.
 
 The mandatory build properties include the following,
 
@@ -39,7 +39,7 @@ staging_survey_base_url= https://google.com/
 staging_projects_base_url = https://google.com
 ```
 
-The sunbird.properties file contains various properties that are used to configure the app for different environments (dev, staging, and production). For the minimal properties, we are considering only a staging environment as of now.
+The sunbird.properties file contains various properties that are used to configure the app for different environments (dev, staging, and production). For the minimal properties, we are considering only a staging environment.
 
 The properties include the app's ID, version code, and name. It also contains properties specific to the staging environment, such as the base URL, mobile app key and secret, channel ID, producer ID, deep link URLs, OAuth redirect URL, etc.
 

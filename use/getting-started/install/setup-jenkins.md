@@ -1,6 +1,6 @@
 # Setup Jenkins
 
-Jenkins is used to build, deploy and setup the infrastructure for Sunbird. Almost everything in Sunbird is automated using Jenkins pipelines which integrates with ansible and other tools.
+Jenkins is used to build, deploy and set up the infrastructure for Sunbird. Almost everything in Sunbird is automated using Jenkins pipelines, which integrate with Ansible and other tools.
 
 *   SSH to the Jenkins server and enter the following commands -
 
@@ -14,7 +14,7 @@ Jenkins is used to build, deploy and setup the infrastructure for Sunbird. Almos
 * Enter the initial password and follow the on-screen instructions. Choose **Install suggested plugin** and create an admin user
 * Go to **http://JENKINS\_IP:8080/pluginManager/available** -> Search for ‘Configuration as Code Plugin’ and install the plugin without restart.
 
-> Don’t run the following until above steps finished
+> Don’t run the following until the above steps are finished
 
 *   Run the below commands on Jenkins server to install external plugins
 
@@ -55,7 +55,7 @@ Jenkins is used to build, deploy and setup the infrastructure for Sunbird. Almos
 
     vim ~/jenkins.yaml
     ```
-*   Run the below commands on Jenkins server to establish connectivity between Jenkins to kubernetes cluster and servers -
+*   Run the below commands on Jenkins server to establish connectivity between Jenkins to Kubernetes cluster and servers&#x20;
 
     ```bash
       mkdir -p /var/lib/jenkins/secrets
@@ -67,7 +67,7 @@ Jenkins is used to build, deploy and setup the infrastructure for Sunbird. Almos
     * Copy the contents of your server’s private key into `/var/lib/jenkins/secrets/deployer_ssh_key`
     * Copy the kubernetes config file contents into `/var/lib/jenkins/secrets/k8s.yaml`
     * Update `/var/lib/jenkins/secrets/vault-pass` file with the ansible vault password which will be used to encrypt the ansible secrets file
-* Run `sudo visudo` on jenkins server and add the below line -
+* Run `sudo visudo` on Jenkins server and add the below line&#x20;
 
 ```bash
       jenkins ALL=(ALL) NOPASSWD:ALL

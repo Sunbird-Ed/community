@@ -1,6 +1,6 @@
 # SunbirdED Portal
 
-The Sunbird portal is the browser-based interface for the Sunbird application stack. It provides a web-app through which all functionality of Sunbird can be accessed.
+The Sunbird portal is the browser-based interface for the Sunbird application stack. It provides a web app through which all Sunbird functionality can be accessed.
 
 ### Getting started
 
@@ -16,11 +16,7 @@ To get started with the Sunbird portal, please try out our cloud-based demo site
 
 #### Prerequisites
 
-| **System Requirements** |                                                                                                                                                                                      |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Operating System**    | <p>MAC OS X 10.0 and above/Linux<br><br><mark style="color:red;">Windows (not verified).</mark> Take it with your own expertise(no community support but open for contribution).</p> |
-| **RAM**                 | > 6 Gb                                                                                                                                                                               |
-| **CPU**                 | 2 cores, >2 GHz                                                                                                                                                                      |
+<table><thead><tr><th width="261">System Requirements</th><th></th></tr></thead><tbody><tr><td><strong>Operating System</strong></td><td>MAC OS X 10.0 and above/Linux<br><br><mark style="color:red;">Windows (not verified).</mark> Take it with your own expertise(no community support, but open for contribution).</td></tr><tr><td><strong>RAM</strong></td><td>> 6 Gb</td></tr><tr><td><strong>CPU</strong></td><td>2 cores, >2 GHz</td></tr></tbody></table>
 
 | Software dependencies                                            |                                                      |
 | ---------------------------------------------------------------- | ---------------------------------------------------- |

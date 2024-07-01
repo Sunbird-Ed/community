@@ -10,7 +10,7 @@
 
 #### Video on the Sunbird ED Technical Architecture - Part 1
 
-Watch the video to understand the Sunbird Tech Architecture and Infrastructure
+Watch the video to understand the Sunbird's Tech Architecture and Infrastructure.
 
 {% embed url="https://youtu.be/fypu3gU2XN8?si=SWIfVMAHUHsMPgmE&t=695" %}
 

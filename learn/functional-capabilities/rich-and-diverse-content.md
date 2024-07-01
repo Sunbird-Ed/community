@@ -1,19 +1,38 @@
 # Rich and diverse content
 
-Sunbird ED allows you to consume a variety of content enabling rich learning experiences.
+### <mark style="color:orange;">What are the rich and diverse contents in Sunbird?</mark>
+
+Sunbird ED allows you to consume various content, enabling rich learning experiences.
 
 Users can access content in multiple formats using content players.
 
 ![](../../.gitbook/assets/Format.PNG)
 
-Following are the various types of contents that can be consumed on sunbird ED learning apps-
+#### Rich and Diverse Content Formats in Sunbird ED
 
-1. **PDF** - PDF stands for "portable document format". Essentially, the format is used when you need to save files that cannot be modified but still need to be easily shared and printed. PDF documents can contain links and buttons, form fields, audio, video and business logic. Sunbird ED's learning apps use PDF format for users to consume reading material, comics, class books, etc.
-2. **Epub** - EPUB is an e-book file format that uses the ".epub" file extension. The term is short for electronic publication and is sometimes styled ePub. Similar to that for PDF, Sunbird ED's learning apps use Epub format for users to consume reading material, comics, class books, etc.
-3. **Video** - A video format is a container that stores audio, video, subtitles, and any other metadata. Sunbird ED's learning apps use video format for users to consume explanation videos, TV classes, etc.
-4. **Audio** - An audio file format is a file format for storing digital audio, subtitles, and any other metadata. Sunbird ED's learning apps use audio format for users to consume TV classes, podcasts, etc.
-5. **HTML** - HTML stands for HyperText Markup Language. It’s the way web pages are coded so that text is formatted and images/videos are added. Sunbird ED's learning apps use HTML format for users to consume interactive content, 3D content, etc.
-6. **H5P** - H5P is an abbreviation for **HTML5 Package**. It enables educators to create content for educational purposes. Sunbird ED's learning apps use H5P format for users to consume interactive videos, presentations, etc.
-7. **ECML** - ECML stands for Ekstep content markup language. It is used to give creators more flexibility and configurability while creating interactive content. Sunbird ED's learning apps use ECML format for users to consume interactive content, questions, quizzes, etc.
+Here is an overview of the types of content accessible via Sunbird ED learning applications:
 
-The above capabilities of Rich and Diverse Content are derived from components of Sunbird Knowlg. You can find details by clicking on the link [here](product-and-developers-guide/rich-and-diverse-content.md)
+* **PDF (Portable Document Format)**\
+  PDFs are versatile, supporting text, images, interactive elements like links and forms, audio, and video. They are commonly used for distributing educational materials such as textbooks, readings, and comics.
+* **EPUB (Electronic Publication)**\
+  The EPUB format is ideal for textual content like class books and comics featuring text, images, stylesheets, and metadata. It provides a reflowable content layout, adjusting to different screen sizes for optimal reading.
+* **Audio**\
+  Audio content includes digital audio formats such as TV classes and podcasts. These can come with subtitles and metadata, enriching the auditory.
+*   **Video**
+
+    Videos are integral to Sunbird ED's multimedia learning approach, featuring engaging explanation videos, instructional TV classes, and more. With both audiovisual components and additional features like subtitles and metadata, videos offer a rich, immersive learning experience.
+*   **HTML**
+
+    HTML (HyperText Markup Language) forms the backbone of web content in Sunbird ED, allowing for a rich display of interactive and 3D content. It is utilized to format text and incorporate multimedia elements like images and videos into web pages, enhancing the educational material's interactivity and accessibility.
+*   **H5P**
+
+    H5P (HTML5 Package) enables the creation and sharing of a variety of interactive content types within Sunbird ED, including videos, presentations, quizzes, and interactive activities. It stands out by empowering educators and content creators to develop highly engaging and educational materials with ease.
+*   **ECML**
+
+    ECML (EkStep Content Markup Language) is a specialized markup language designed for creating interactive content such as quizzes, simulations, and questions. By offering creators increased flexibility and configurability, ECML supports the development of dynamic, interactive learning experiences on Sunbird ED platforms.
+
+### <mark style="color:orange;">How to Configure?</mark>
+
+The above capabilities of Rich and Diverse Content are derived from components of Sunbird Knowlg.&#x20;
+
+You can find details by clicking on the link [here](product-and-developers-guide/rich-and-diverse-content.md).

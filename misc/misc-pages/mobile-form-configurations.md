@@ -518,7 +518,7 @@ Notifications will list down and shows title from the response. This makes users
 {% endtab %}
 {% endtabs %}
 
-## This form is used for showing the dropdown list of location values. This form is called location mapping config and using this config, location values are selected by users, to update the profile.
+## This form is used for showing the drop-down list of location values. This form is called location mapping config and using this config, location values are selected by users to update the profile.
 
 <mark style="color:green;">`POST`</mark> `Location mapping config`
 
@@ -611,7 +611,7 @@ Overall, this form configuration allows for easy customization of feedback optio
 {% endtab %}
 {% endtabs %}
 
-## This form is used to get the deep link for QRcode and splash screen.
+## This form is used to get the deep link for QR code and splash screen.
 
 <mark style="color:green;">`POST`</mark> `Deep link`&#x20;
 
@@ -766,7 +766,7 @@ Overall, this form configuration provides a straightforward and efficient method
 {% endtab %}
 {% endtabs %}
 
-## The form will provide popups for some use cases such as experience switch between classic and new App experiences.
+## The form will provide popups for some use cases such as an experience switch between classic and new App experiences.
 
 <mark style="color:green;">`POST`</mark> `Utility popups`
 
@@ -935,7 +935,7 @@ The response API includes configuration for the "Name" field on a create task pa
 {% endtab %}
 {% endtabs %}
 
-## In the browse other categories section of the home page, the labels are being given using this configuration.
+## In the browse other categories section of the home page, the labels are given using this configuration.
 
 <mark style="color:green;">`POST`</mark> `Category labels`
 
@@ -1168,7 +1168,7 @@ The form configuration provides a set of labels for the external ID verification
 {% endtab %}
 {% endtabs %}
 
-## The form is used to provide a text area for describing user’s issues.
+## The form is used to provide a text area for describing the user’s issues.
 
 <mark style="color:green;">`POST`</mark> `Support form`
 
@@ -1202,7 +1202,7 @@ This form configuration provides a text area field with a maximum length of 1000
 {% endtab %}
 {% endtabs %}
 
-## This form is used to provide contact details of all boards for any support user needs.
+## This form is used to provide contact details of all boards for any support the user needs.
 
 <mark style="color:green;">`POST`</mark> `Board contact info`
 

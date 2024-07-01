@@ -12,15 +12,15 @@ Process Flow for course completion and certificate issuance
 
 ### Reports
 
-All reports need the user cache in redis populated. This is done by the flink-dev/user-cache-updater-v2 job. The cache update can also me manually triggered by the ETLUserCacheIndexer Jenkins job
+All reports need the user cache in redis populated. The flink-dev/user-cache-updater-v2 job does this. The ETLUserCacheIndexer Jenkins job can manually trigger the cache update.
 
-The progress exhaust report uses data from sunbird\_courses.user\_activity\_agg to generate the report. The progress exhaust also needs the user cache to be populated, otherwise this report may be empty
+The progress exhaust report uses data from sunbird\_courses.user\_activity\_agg to generate the report. The progress exhaust also needs the user cache to be populated. Otherwise, this report may be empty.
 
-The user info report will work as long as the cache is populated
+The user info report will work as long as the cache is populated.
 
-For the response exhaust, the assessment-aggregator job needs to be running and stable
+For the response exhaust, the assessment-aggregator job needs to be running and stable.
 
-Usually the reports are generated using a cronjob. Use the below commands to manually run the jobs. Run it from the DP VM, as analytics user
+Usually, the reports are generated using a cronjob. Use the below commands to run the jobs manually. Run it from the DP VM, as an mustanalytics user
 
 ```bash
 /mount/data/analytics/scripts/run-job.sh progress-exhaust
@@ -28,7 +28,7 @@ Usually the reports are generated using a cronjob. Use the below commands to man
 /mount/data/analytics/scripts/run-job.sh userinfo-exhaust
 ```
 
-### FAQs if certificate is failing
+### FAQs if a certificate is failing
 
 1. The certificate needs to have [issuer.name](http://issuer.name) and issuer.url set
 2. The certificate needs to have signatoryList array with 1 child having

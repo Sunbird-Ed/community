@@ -67,15 +67,13 @@ Xcode 12.4 Build version 12D4e or above
 9. RUN cordova emulate ios
 ```
 
-###
 
-\\
 
 ### Possible Errors
 
 1. error: Value for SWIFT\_VERSION cannot be empty. (in target 'Sunbird' from project 'Sunbird') or Duplicate GoogleService-Info.plist file error
 
-#### Solution
+Solution
 
 ```
 open platforms/ios/Sunbird.xcworkspace 

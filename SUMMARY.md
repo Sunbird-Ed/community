@@ -73,7 +73,7 @@
 * [Latest Release - 7.0.0](use/release/README.md)
   * [Release notes](use/release/release-notes.md)
   * [Updating Sunbird Releases](use/release/updating-sunbird-releases/README.md)
-    * [6.0.1 to 7.0.0](use/release/updating-sunbird-releases/6.0.1-to-7.0.0.md)
+    * [6.0.1 to 7.0.0](use/release/updating-sunbird-releases/5.2.0-to-6.0.0.md)
   * [Release Calendar 7.0.0](use/release/release-calendar-6.0.0.md)
   * [Demo of released items](use/release/demo-of-released-items.md)
 * [Developer Guide](use/source-code/README.md)
@@ -209,7 +209,7 @@
 ## Engage
 
 * [Discuss](https://github.com/Sunbird-Ed/Community/discussions)
-* [Contribute to ED](engage/contribute-to-ed.md)
+* [Contribute to Sunbird ED](engage/contribute-to-ed.md)
 * [Extend / Contribute to Sunbird](engage/extend-contribute-to-sunbird.md)
 * [Issue tracker/ Create Issue](engage/issue-tracker.md)
 

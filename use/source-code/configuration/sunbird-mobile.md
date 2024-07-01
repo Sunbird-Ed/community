@@ -6,13 +6,12 @@ The Sunbird Mobile app provides mobility to its feature-rich learning platform. 
 
 ### Prerequisites <a href="#prerequisites" id="prerequisites"></a>
 
-\
-1.To set up Sunbird mobile app, ensure you have installed the following:\
-a) NPM Version - 6.+\
-b) Node JS Version - 8.+\
-c) Cordova Version - 8.+\
-d) Ionic Version - 4.11.2\
-2\. Generate the key and secret for the mobile app user using the JWT token of the mobile admin user. Run the **OnboardConsumers** Jenkins Job and take the jwt token(**JWT token for mobile\_admin**) from Jenkins Output.
+1. To set up the Sunbird Mobile app, ensure you have installed the following:
+   * NPM version: 6+
+   * Node JS version: 8+
+   * Cordova version: 8+
+   * Ionic version: 4.11.2
+2. Generate the key and secret for the mobile app user using the JWT token of the mobile admin user. Run the **OnboardConsumers** Jenkins Job and take the JWT token (**JWT token for mobile\_admin**) from Jenkins output.
 
 **Generating Secret:** Execute the listed API to generate the key and secret for the mobile app:
 
@@ -20,11 +19,11 @@ curl -X POST \ \<your-sunbird-base-url>/api/api-manager/v1/consumer/mobile\_app/
 
 **Response body:**
 
-{“result”:{“key”:”\<implementation-name>-mobile-app-\<version-number>”,”secret”:”\<secret>”\}}
+`{“result”:{“key”:”<implementation-name>-mobile-app-<version-number>”,”secret”:”<secret>”}}`
 
-Use the key and secret from the response given for MOBILE\_APP\_KEY and MOBILE\_APP\_SECRET configuration in respective environments in gradle.properties file. Example:
+Use the key and secret from the response given for MOBILE\_APP\_KEY and MOBILE\_APP\_SECRET configuration in respective environments in the gradle.properties file. Example:
 
-**dev\_mobile\_app\_key = “\<implementation-name>-mobile-app-\<version-number>” dev\_mobile\_app\_secret = “\<secret>“**
+**`dev_mobile_app_key = “<implementation-name>-mobile-app-<version-number>” dev_mobile_app_secret = “<secret>“`**
 
 **Producer Key**
 
@@ -36,16 +35,16 @@ Replace `release_fabric_api_key` in `sunbird.properties` with your fabric API Ke
 
 ### Set up mobile app workspace from Git Repository <a href="#set-up-mobile-app-workspace-from-git-repository" id="set-up-mobile-app-workspace-from-git-repository"></a>
 
-Sunbird mobile app can be built from the main source code which is available at [SunbirdEd-mobile-app](https://github.com/Sunbird-Ed/SunbirdEd-mobile-app).
+Sunbird mobile app can be built from the main source code, which is available at [SunbirdEd-mobile-app](https://github.com/Sunbird-Ed/SunbirdEd-mobile-app).
 
 * Clone the [SunbirdEd-mobile-app](https://github.com/Sunbird-Ed/SunbirdEd-mobile-app) repo
-* [Customising App Configuration](http://docs.sunbird.org/latest/#customising-app-configuration) - sample.sunbird.properties file is located inside SunbirdEd-mobile-app > buildConfig folder. This has to be renamed to sunbird.properties and appropriate values should be provided.
+* [Customising App Configuration](http://docs.sunbird.org/latest/#customising-app-configuration) - sample.sunbird.properties file is located inside the SunbirdEd-mobile-app > buildConfig folder. The file must be renamed to sunbird.properties, and appropriate values should be provided.
 * [Package the framework and form data](http://docs.sunbird.org/latest/#package-the-framework-and-form-data).
-* go to project folder and run **./build.sh**
+* go to the project folder and run **`./build.sh`**
 
 #### Customising App Configuration <a href="#customising-app-configuration" id="customising-app-configuration"></a>
 
-Instance admin of Sunbird adopters can configure various aspects of the Sunbird mobile app based on the requirement of the the organization. The admin are able to configure various aspects such as:
+Instance admin of Sunbird adopters can configure various aspects of the Sunbird mobile app based on the requirements of the organization. The admins are able to configure various aspects, such as:
 
 * App name
 * App logo
@@ -64,21 +63,19 @@ Sunbird mobile app supports configuration of the app framework to enable offline
 
 #### Installing the Mobile Application <a href="#installing-the-mobile-application" id="installing-the-mobile-application"></a>
 
-1.Create a workspace (Folder Hierarchy) and clone the Git repositories into this folder
+To install the Sunbird Mobile app, follow the steps below:
 
-2.Execute the instructions mentioned for each cloned repository
-
-3.Open terminal and change the directory to “SunbirdEd-mobile-app”
-
-4.Add one device to the system
-
-5.Run the command- **$ ionic cordova run android**
+1. Create a workspace (Folder Hierarchy) and clone the Git repositories into this folder
+2. Execute the instructions mentioned for each cloned repository
+3. Open terminal and change the directory to “SunbirdEd-mobile-app”
+4. Add one device to the system
+5. Run the command - **`$ ionic cordova run android`**
 
 #### Generate Multiple Sunbird Apps <a href="#generate-multiple-sunbird-apps" id="generate-multiple-sunbird-apps"></a>
 
-As a Sunbird instance owner, owner should be able to generate multiple apps for multiple environments(dev/qa/production) so that user can use all the apps simultaneously. For each app, user should be able to have different content stores (on the local device), fire telemetry from separate app identifiers and upload to playstore (if need be).
+Sunbird instance owners should be able to generate multiple apps for multiple environments (dev/qa/production) so that user can use all the apps simultaneously. For each app, user should be able to have different content stores (on the local device), fire telemetry from separate app identifiers and upload to the play store (if need be).
 
-**Configuration**
+#### **Configuration**
 
 Instance admin of Sunbird adopters can configure the appId in the following way to acheive the functionality
 

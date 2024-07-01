@@ -6,9 +6,9 @@
 
 **Priority definition**
 
-1. P1 (fix to be provided asap )
-   1. Security breaches such as Log4js issue
-   2. Version compatibility/Backward Compatibility issues such as certificates have moved to RC but older certificates are not working properly
+1. P1 (Fix to be provided ASAP)
+   1. Security breaches, such as Log4js issue
+   2. Version compatibility/Backward Compatibility issues, such as certificates have moved to RC, but older certificates are not working properly
    3. Build Breaks
    4. Regression issues (a feature working in the previous version but not working in the latest version)
 2. P2 (Fix to be provided in immediate next release)

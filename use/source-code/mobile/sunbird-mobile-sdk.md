@@ -16,15 +16,15 @@ description: >-
 
 The sunbird-mobile-sdk follows a basic typescript library code structure that is modular. The following diagram shows the folder structure of the SDK.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-08-07 at 1.35.34 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-08-07 at 1.35.34 AM.png" alt="" width="375"><figcaption></figcaption></figure>
 
-plugins
+#### plugins
 
 This folder contains the definition file of all the plugins used in the sunbird-mobile-sdk.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-08-07 at 11.58.05 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-08-07 at 11.58.05 PM.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Each definition file contains the plugin methods and the models. one sample definition file is as follows
+Each definition file contains the plugin methods and the models. One sample definition file is as follows:
 
 ````typescript
 ```
@@ -59,11 +59,11 @@ interface Cordova {
 
 #### src
 
-This folder contains all the modules of sunbird-mobile-sdk. Each module folder contains majorly 5 sub-folders(config, def, errors, handlers, impl) and one index file.
+This folder contains all the modules of sunbird-mobile-sdk. Each module folder contains five sub-folders (config, def, errors, handlers, impl) and one index file.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2023-08-07 at 2.46.24 AM.png" alt=""><figcaption></figcaption></figure>
 
-* **config -** This folder contains an interface that contains information about the server endpoints used by this module. One sample interface is as follows
+* **config** - This folder contains an interface that contains information about the server endpoints used by this module. One sample interface is as follows:
 
 ````typescript
 ```
@@ -73,7 +73,7 @@ export interface CourseServiceConfig {
 ```
 ````
 
-* **def -** This folder contains an interface that contains the methods exposed by this module along with all the model classes used by the module. One sample interface is as follows
+* **def** - This folder contains an interface that contains the methods exposed by this module, along with all the model classes used by the module. One sample interface is as follows:
 
 ````typescript
 ```
@@ -98,7 +98,7 @@ export interface CourseService {
 
 * **errors -** This folder contains all the error model classes used by the module.
 * **handlers -** This folder contains utility classes used across the module.
-* **impl -** This folder contains the class that implements the definition interface and it is the actual implementation of the methods exposed by this module. One sample class is as follows
+* **impl -** This folder contains the class that implements the definition interface, and it is the actual implementation of the methods exposed by this module. One sample class is as follows:
 
 ````typescript
 ```
@@ -164,4 +164,4 @@ export class CourseServiceImpl implements CourseService {
 ```
 ````
 
-**index.ts -** This file is the registry of all the classes used by this module.
+* **index.ts -** This file is the registry of all the classes used by this module.

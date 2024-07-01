@@ -1,6 +1,10 @@
 # What are all the flink jobs for
 
-The flink jobs are divided into 2 namespaces - `flink-<env>` and `kp-flink-<env>` . The kp-flink namespace has all the jobs related to content and consumption and the flink namespace has all the jobs related to reports and data pipeline
+The flink jobs are divided into two namespaces:&#x20;
+
+&#x20;`flink-<env>` and `kp-flink-<env>` .&#x20;
+
+The kp-flink namespace has all the jobs related to content and consumption, and the flink namespace has all the jobs related to reports and data pipeline.
 
 **post-publish-processor**
 

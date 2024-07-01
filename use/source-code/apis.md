@@ -43,9 +43,9 @@ This Postman Forms collection details about
 
 ### Certificate: Enabling Certifications
 
-This section detailed about
+This section details about
 
 * How to configure the Certifications feature in Sunbird-ED?
-* What are the API's related to Certifications?
+* What are the APIs related to Certifications?
 
 {% embed url="https://github.com/orgs/Sunbird-Lern/discussions/112" %}

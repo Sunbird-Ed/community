@@ -1,8 +1,8 @@
 # How does data flow into Druid
 
-Gets picked up from telemetry topics
+The data gets picked up from telemetry topics.
 
-Then it goes through these flink jobs before landing into the druid topics
+Then it goes through the following flink jobs before landing into the druid topics
 
 1. ingest router job
 2. telemetry extractor

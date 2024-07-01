@@ -2,11 +2,11 @@
 
 ### 1. sunbird.properties
 
-<mark style="color:blue;">**sunbird.properties**</mark> file contains all the necessary configurations to set up Sunbird mobile app. The following are the configurations inside the <mark style="color:blue;">**sunbird.properties**</mark> file.
+<mark style="color:blue;">**sunbird.properties**</mark> file contains all the necessary configurations to set up the Sunbird mobile app. The following are the configurations inside the <mark style="color:blue;">**sunbird.properties**</mark> file.
 
-#### Note
+#### Note:
 
-The properties can be environment-specific so the naming convention is \<env\_name>\_\_\<property\_\_name>. For example, suppose **base\_url** is the property so its dev environment-specific property name is **dev\_base\_url,** and the staging environment-specific property name is **staging\_base\_url.**
+The properties can be environment-specific, so the naming convention is \<env\_name>\_\_\<property\_\_name>. For example, suppose **base\_url** is the property, so its dev environment-specific property name is **dev\_base\_url,** and the staging environment-specific property name is **staging\_base\_url.**
 
 | Property name             | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -27,7 +27,7 @@ The properties can be environment-specific so the naming convention is \<env\_na
 | survey\_base\_url         | Survey feature base URL(Manage Learn Usecase).Env specific properties dev\_survey\_base\_url, staging\_survey\_base\_url                                                                                                                                                                                                                                                                                                                                                                                     |
 | projects\_base\_url       | Project feature base URL(Manage Learn Usecase).Env specific properties dev\_projects\_base\_url, staging\_projects\_.base\_url                                                                                                                                                                                                                                                                                                                                                                               |
 
-#### 2. google-service.json
+### 2. google-service.json
 
 Create apps in the firebase console based on the number of variants available for your instance. In the firebase console add the package name equivalent to your variant app\_id. For example, suppose you have a staging variant of your instance and the property is following
 

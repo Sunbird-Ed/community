@@ -1,10 +1,10 @@
 # Update Ansible Variables
 
-Ansible is the configuration  management system used in Sunbird. Provisioning, deployment of services and other configurations are handled primarily through ansible.&#x20;
+Ansible is the configuration management system used in Sunbird. Provisioning, deployment of services and other configurations are handled primarily through Ansible.&#x20;
 
-**Updating the Private Repository with Hosts and Variables**
+#### **Updating the Private Repository with Hosts and Variables**
 
-Execute the following commands in your local to clone the private repo template and update your private GitHub repository -
+Execute the following commands in your local to clone the private repo template and update your private GitHub repository
 
 `git clone https://github.com/project-sunbird/sunbird-devops`
 
@@ -13,9 +13,9 @@ Execute the following commands in your local to clone the private repo template 
 `git checkout tags/release-7.0.0 -b release-7.0.0`
 
 * Copy the directory `sunbird-devops/private_repo/ansible` to your private repo local workspace
-* Run the `key-generate.sh` script located under `ansible/inventory/dev` folder. The script will ask for the ansible vault password. Enter the same vault password that you used in the Jenkins setup stage. The script will generate many private key files and they will be encrypted with the vault password. Deployments will fail if keys are not encrypted.
-* Update the files **common.yml**, **hosts**, and **secrets.yml** under **Core**, **KnowledgePlatform** and **DataPipeline** directories. After updating, push them to your private repo branch
-* Your private repo structure starting from the root path should be as shown below
+* Run the `key-generate.sh` script located under `ansible/inventory/dev` folder. The script will ask for the ansible vault password. Enter the same vault password that you used in the Jenkins setup stage. The script will generate many private key files that will be encrypted with the vault password. Deployments will fail if keys are not encrypted.
+* Update common.yml, hosts, and secrets.yml files under the **Core**, **KnowledgePlatform** and **DataPipeline** directories. After updating, push them to your private repo branch
+* Your private repo structure starting from the root path should be as shown below.
 
 ```
 ansible
@@ -60,7 +60,7 @@ ansible
             └── secrets.yml -> ../Core/secrets.yml
 ```
 
-**Neo4j download and upload to object storage**
+#### **Neo4j download and upload to object storage**
 
 * Neo4j community artifact needs to be downloaded from neo4j official website [http://dist.neo4j.org/neo4j-community-3.3.9-unix.tar.gz](http://dist.neo4j.org/neo4j-community-3.3.9-unix.tar.gz) (only Neo4j 3.4 and below is supported)
 * Upload downloaded artifact to `cloud_storage_artifacts_bucketname`
@@ -68,10 +68,10 @@ ansible
 
 > Note:
 >
-> * The ansible inventory setup is a must before we can start to run jobs from the **Provision**, **ArtifactUpload** and **Deploy** directory in Jenkins. The **Build** directory on Jenkins does not depend on the ansible variables
-> * It is highly recommended that you complete the ansible inventory updates before proceeding further
+> * The ansible inventory setup is a must before we can run jobs from the **Provision**, **ArtifactUpload** and **Deploy** directory in Jenkins. The **Build** directory on Jenkins does not depend on the ansible variables.
+> * It is highly recommended that you complete the ansible inventory updates before proceeding.
 
-**List of Servers with their Ansible Group Names**
+#### **List of Servers with their Ansible Group Names**
 
 | Module             | Servers  | Service                   | Ansible Group Names                                                                                                                                                             |
 | ------------------ | -------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

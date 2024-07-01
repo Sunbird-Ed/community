@@ -107,15 +107,15 @@ There are a few known bugs in this release. For a complete list, refer to this [
 
 The build tags used by the below building blocks for this release to upgrade your Sunbird ED are:
 
-[_Sunbird ED_](updating-sunbird-releases/6.0.1-to-7.0.0.md#sunbirded)
+[_Sunbird ED_](updating-sunbird-releases/5.2.0-to-6.0.0.md#sunbirded)
 
-[_Sunbird Lern_](updating-sunbird-releases/6.0.1-to-7.0.0.md#sunbird-lern)
+[_Sunbird Lern_](updating-sunbird-releases/5.2.0-to-6.0.0.md#sunbird-lern)
 
-[_Sunbird Obsrv_](updating-sunbird-releases/6.0.1-to-7.0.0.md#sunbird-obsrv)
+[_Sunbird Obsrv_](updating-sunbird-releases/5.2.0-to-6.0.0.md#sunbird-obsrv)
 
-[_Sunbird-Knowlg_](updating-sunbird-releases/6.0.1-to-7.0.0.md#sunbird-knowlg)
+[_Sunbird-Knowlg_](updating-sunbird-releases/5.2.0-to-6.0.0.md#sunbird-knowlg)
 
-[_Sunbird-InQuiry_](updating-sunbird-releases/6.0.1-to-7.0.0.md#sunbird-inquiry)
+[_Sunbird-InQuiry_](updating-sunbird-releases/5.2.0-to-6.0.0.md#sunbird-inquiry)
 
 ### Installation or Upgrade
 
