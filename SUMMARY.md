@@ -90,6 +90,7 @@
   * [Portal](use/source-code/portal/README.md)
     * [Component Diagram](use/source-code/portal/portal-component-diagrams.md)
     * [I18N (Resource Bundles)](use/source-code/portal/i18n-resource-bundles.md)
+    * [Branding Name and Logo Configuration Guide](use/source-code/portal/branding-name-and-logo-configuration-guide.md)
   * [Desktop](use/source-code/desktop/README.md)
     * [Component Diagram](use/source-code/desktop/component-diagram.md)
   * [Mobile](use/source-code/mobile/README.md)
